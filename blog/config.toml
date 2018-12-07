@@ -1,4 +1,60 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "My New Hugo Site"
-theme = "ananke" 
+baseurl         = "https://blog.matthewbrowne.com"
+theme           = "casper-two"
+languageCode    = "en-US"
+disqusShortname = ""
+paginate        = 6
+#SectionPagesMenu = "main"
+
+[params]
+  title       = "Matt Browne's Blog"
+  subtitle    = "My Technical Blog Site"
+
+  cover       = "uploads/header-min.jpg"
+  description = "Testing the blog setup"
+  metaDescription = ""
+  googleAnalytics = ""
+  customCSS = []
+  RSSLink = ""
+
+  twitterName = "MattBrowne"
+  fbName = ""
+  githubName = "MattBrowne1"
+
+  logo = ""
+  orgName = "EM"
+  orgWebsite = "https://www.telematika.org"
+  orgDescription = "Here is a description placeholder for your org"
+
+  author = "Matt Browne"
+  authorAvatar = "uploads/profile_picture.jpg"
+  authorLocation = "Bandung, ID"
+  authorWebsite = "https://eueung.github.io"
+  authorDescription = "Geek"
+
+  pageNotFoundTitle = "404 - Page not found"
+
+  #casper or caspertwo
+  singleViewStyle = "casper"
+
+[permalinks]
+  post = "/:slug/"
+
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 200
+
+[[menu.main]]
+  name = "PowerShell"
+  url = "/tags/powershell/"
+  weight = 100
+
+[[menu.main]]
+  name = "Food"
+  url = "/categories/food/"
+  weight = 99
+
+[[menu.main]]
+  name = "TechSnips Videos"
+  url = "https://www.techsnips.io/contributors/matt-browne/"
+  weight = 95
