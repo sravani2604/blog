@@ -1,4 +1,4 @@
-baseurl         = "https://blog.matthewbrowne.com"
+baseurl         = "https://blogpoc.azurewebsites.net/"
 theme           = "casper-two"
 languageCode    = "en-US"
 disqusShortname = ""
