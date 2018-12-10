@@ -2,6 +2,7 @@
 title: "Another Post about something or another"
 date: 2018-12-08T16:34:54Z
 draft: False
+image: ""
 ---
 
 # Title of this post
