@@ -3,7 +3,18 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://blog.matthewbrowne.com/another-post-about-something-or-another/</loc>
+    <lastmod>2018-12-08T16:34:54+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.matthewbrowne.com/how-i-made-this-blog/</loc>
+    <lastmod>2018-12-07T17:13:09+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://blog.matthewbrowne.com/</loc>
+    <lastmod>2018-12-08T16:34:54+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -13,7 +24,20 @@
   </url>
   
   <url>
+    <loc>https://blog.matthewbrowne.com/post/</loc>
+    <lastmod>2018-12-08T16:34:54+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.matthewbrowne.com/tags/powershell/</loc>
+    <lastmod>2018-12-07T17:13:09+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.matthewbrowne.com/tags/</loc>
+    <lastmod>2018-12-07T17:13:09+00:00</lastmod>
     <priority>0</priority>
   </url>
   
