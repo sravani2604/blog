@@ -49,7 +49,7 @@ canonifyURLs = true
   socialShareReddit    = true
   socialShareLinkedin  = true
   socialShareStumbleupon = false
-  socialSharePinterest = false
+  socialSharePinterest = true
   socialShareEmail     = true
 
   # Load custom CSS or JavaScript files. The variable is an array so that you
