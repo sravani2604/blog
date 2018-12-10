@@ -1,4 +1,4 @@
-baseurl         = "https://blogpoc.azurewebsites.net/"
+baseurl         = "https://blogpoc.azurewebsites.net"
 theme           = "casper-two"
 languageCode    = "en-US"
 disqusShortname = ""
@@ -27,7 +27,7 @@ paginate        = 6
 
   author = "Matt Browne"
   authorAvatar = "uploads/profile_picture.jpg"
-  authorLocation = "Bandung, ID"
+  authorLocation = "Bristol, UK"
   authorWebsite = "https://eueung.github.io"
   authorDescription = "Geek"
 
