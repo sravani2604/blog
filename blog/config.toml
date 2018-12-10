@@ -49,7 +49,7 @@ canonifyURLs = true
   socialShareReddit    = true
   socialShareLinkedin  = true
   socialShareStumbleupon = false
-  socialSharePinterest = true
+  socialSharePinterest = false
   socialShareEmail     = true
 
   # Load custom CSS or JavaScript files. The variable is an array so that you
@@ -91,7 +91,7 @@ canonifyURLs = true
 
   paragraph = "Musings on all things Cloud, Azure, PowerShell or anything technology based.  A place to write, learn and record the things I do."
 
-  about     = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tellus lacus, auctor vehicula molestie quis, tempor quis velit. Quisque in quam ac leo efficitur vulputate. Phasellus ullamcorper aliquam sodales. Maecenas sit amet condimentum ipsum. Proin sit amet ligula elit. Mauris."
+  about     = "Azure, PowerShell, DevOps, Automation and anything technology."
 
   # This appears at the top of the sidebar above params.intro.header.
   # A width of less than 100px is recommended from a design perspective.
