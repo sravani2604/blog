@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Powershell on </title>
-    <link>https://blog.matthewbrowne.com/tags/powershell/</link>
-    <description>Recent content in Powershell on </description>
+    <title>powershell on Hugo Future Imperfect</title>
+    <link>/tags/powershell/</link>
+    <description>Recent content in powershell on Hugo Future Imperfect</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language>
+    <language>en-us</language>
     <lastBuildDate>Fri, 07 Dec 2018 17:13:09 +0000</lastBuildDate>
     
-	<atom:link href="https://blog.matthewbrowne.com/tags/powershell/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/powershell/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>How I Made This Blog</title>
-      <link>https://blog.matthewbrowne.com/how-i-made-this-blog/</link>
+      <link>/post/how-i-made-this-blog/</link>
       <pubDate>Fri, 07 Dec 2018 17:13:09 +0000</pubDate>
       
-      <guid>https://blog.matthewbrowne.com/how-i-made-this-blog/</guid>
-      <description> Awesome Post This is some info text get-service  </description>
+      <guid>/post/how-i-made-this-blog/</guid>
+      <description> Awesome Post This is some info text get-service Get-AzureRMVM  </description>
     </item>
     
   </channel>

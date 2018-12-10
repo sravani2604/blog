@@ -3,40 +3,39 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://blog.matthewbrowne.com/another-post-about-something-or-another/</loc>
+    <loc>/post/another-post-about-something-or-another/</loc>
     <lastmod>2018-12-08T16:34:54+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://blog.matthewbrowne.com/how-i-made-this-blog/</loc>
+    <loc>/post/how-i-made-this-blog/</loc>
     <lastmod>2018-12-07T17:13:09+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://blog.matthewbrowne.com/</loc>
+    <loc>/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/</loc>
     <lastmod>2018-12-08T16:34:54+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://blog.matthewbrowne.com/categories/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.matthewbrowne.com/post/</loc>
+    <loc>/post/</loc>
     <lastmod>2018-12-08T16:34:54+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://blog.matthewbrowne.com/tags/powershell/</loc>
-    <lastmod>2018-12-07T17:13:09+00:00</lastmod>
+    <loc>/tags/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://blog.matthewbrowne.com/tags/</loc>
+    <loc>/tags/powershell/</loc>
     <lastmod>2018-12-07T17:13:09+00:00</lastmod>
     <priority>0</priority>
   </url>
