@@ -15,7 +15,7 @@ canonifyURLs = true
   # Sets the meta tag description
   description          = "HTML5 UP theme, Future Imperfect with some extra goodies, ported by Julio Pescador. Powered by Hugo"
   # Sets the navbarTitle that appears in the top left of the navigation bar
-  navbarTitle          = "Future Imperfect"
+  navbarTitle          = "Matt Browne's BlogY"
   # Sets where "View More Posts" links.
   viewMorePostLink     = "/blog/"
 
@@ -89,7 +89,7 @@ canonifyURLs = true
 [params.intro]
   header    = "Matt Browne's Blog"
 
-  paragraph = "Musings on all things Cloud, Azure, PowerShell or anything technology based.  A place to write, learn and record the things I do."
+  paragraph = ""
 
   about     = "Azure, PowerShell, DevOps, Automation and anything technology."
 
