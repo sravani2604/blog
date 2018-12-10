@@ -13,4 +13,5 @@ tags: ["powershell"]
 
 ```PowerShell
 get-service 
+Get-AzureRMVM
 ```
