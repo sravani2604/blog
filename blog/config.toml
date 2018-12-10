@@ -1,4 +1,4 @@
-baseurl = "/"
+baseurl = "https://blogpoc.azurewebsites.net/"
 languageCode = "en-us"
 title = "Matt Browne's Blog"
 theme = "hugo-future-imperfect"
