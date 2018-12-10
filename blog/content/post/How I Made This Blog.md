@@ -12,5 +12,5 @@ tags: ["powershell"]
 ### This is some info text
 
 ```PowerShell
-get-service
+get-service 
 ```
