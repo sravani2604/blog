@@ -1,33 +1,51 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Hugo Future Imperfect</title>
-    <link>/</link>
-    <description>Recent content on Hugo Future Imperfect</description>
+    <title>Matt Browne&#39;s Blog</title>
+    <link>https://blogpoc.azurewebsites.net/</link>
+    <description>Recent content on Matt Browne&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 08 Dec 2018 16:34:54 +0000</lastBuildDate>
     
-	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://blogpoc.azurewebsites.net/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Another Post about something or another</title>
-      <link>/post/another-post-about-something-or-another/</link>
+      <link>https://blogpoc.azurewebsites.net/post/another-post-about-something-or-another/</link>
       <pubDate>Sat, 08 Dec 2018 16:34:54 +0000</pubDate>
       
-      <guid>/post/another-post-about-something-or-another/</guid>
+      <guid>https://blogpoc.azurewebsites.net/post/another-post-about-something-or-another/</guid>
       <description>Title of this post Unpacked now declared put you confined daughter improved. Celebrated imprudence few interested especially reasonable off one. Wonder bed elinor family secure met. It want gave west into high no in. Depend repair met before man admire see and. An he observe be it covered delight hastily message. Margaret no ladyship endeavor ye to settling.
-When be draw drew ye. Defective in do recommend suffering. House it seven in spoil tiled court.</description>
+Get-service Get-AzureRMVM  When be draw drew ye. Defective in do recommend suffering.</description>
     </item>
     
     <item>
       <title>How I Made This Blog</title>
-      <link>/post/how-i-made-this-blog/</link>
+      <link>https://blogpoc.azurewebsites.net/post/how-i-made-this-blog/</link>
       <pubDate>Fri, 07 Dec 2018 17:13:09 +0000</pubDate>
       
-      <guid>/post/how-i-made-this-blog/</guid>
+      <guid>https://blogpoc.azurewebsites.net/post/how-i-made-this-blog/</guid>
       <description> Awesome Post This is some info text get-service Get-AzureRMVM  </description>
+    </item>
+    
+    <item>
+      <title>about</title>
+      <link>https://blogpoc.azurewebsites.net/about-time/</link>
+      <pubDate>Sat, 27 Sep 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://blogpoc.azurewebsites.net/about-time/</guid>
+      <description>about us i&amp;rsquo;m speechless :wq</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://blogpoc.azurewebsites.net/blog/blank_1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://blogpoc.azurewebsites.net/blog/blank_1/</guid>
+      <description></description>
     </item>
     
   </channel>

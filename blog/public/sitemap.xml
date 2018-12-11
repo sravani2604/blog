@@ -3,39 +3,58 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/post/another-post-about-something-or-another/</loc>
+    <loc>https://blogpoc.azurewebsites.net/post/another-post-about-something-or-another/</loc>
     <lastmod>2018-12-08T16:34:54+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/how-i-made-this-blog/</loc>
+    <loc>https://blogpoc.azurewebsites.net/post/how-i-made-this-blog/</loc>
     <lastmod>2018-12-07T17:13:09+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/</loc>
+    <loc>https://blogpoc.azurewebsites.net/about-time/</loc>
+    <lastmod>2014-09-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blogpoc.azurewebsites.net/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/</loc>
+    <loc>https://blogpoc.azurewebsites.net/blog/blank_1/</loc>
+  </url>
+  
+  <url>
+    <loc>https://blogpoc.azurewebsites.net/blog/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://blogpoc.azurewebsites.net/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://blogpoc.azurewebsites.net/</loc>
     <lastmod>2018-12-08T16:34:54+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/post/</loc>
+    <loc>https://blogpoc.azurewebsites.net/post/</loc>
     <lastmod>2018-12-08T16:34:54+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/</loc>
+    <loc>https://blogpoc.azurewebsites.net/tags/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/powershell/</loc>
+    <loc>https://blogpoc.azurewebsites.net/tags/powershell/</loc>
     <lastmod>2018-12-07T17:13:09+00:00</lastmod>
     <priority>0</priority>
   </url>
