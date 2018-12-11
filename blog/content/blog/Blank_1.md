@@ -1,15 +1,13 @@
 +++
-author = "Matt Browne"
+author = ""
 categories = [""]
-tags = [""]
-date = "2018-12-11"
-description = "First Post"
-featured = "pipes.jpeg"
-featuredalt = "Pic 3"
-featuredpath = "date"
+date = ""
+description = ""
+featured = ""
+featuredalt = ""
+featuredpath = ""
 linktitle = ""
-title = "First Post"
+title = ""
 type = "post"
+draft = "true"
 +++
-
-Every blog has to have a first post right!
