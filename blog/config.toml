@@ -4,7 +4,7 @@ title = "Matt Browne's Blog"
 theme = "hugo-future-imperfect"
 preserveTaxonomyNames = true
 paginate = 3
-disqusShortname = "shortname"
+disqusShortname = ""
 googleAnalytics = ""
 pluralizeListTitles = false
 # Set the followings to true as part of your site SEO
@@ -122,11 +122,11 @@ canonifyURLs = true
   identifier = "fa fa-id-card-o"
   weight = 2
 
-[[menu.main]]
-  name = "Blog"
-  url = "/blog/"
-  identifier = "fa fa-newspaper-o"
-  weight = 3
+#[[menu.main]]
+#  name = "Blog"
+#  url = "/blog/"
+#  identifier = "fa fa-newspaper-o"
+#  weight = 3
 
 #[[menu.main]]
 #  name = "Itemized"
