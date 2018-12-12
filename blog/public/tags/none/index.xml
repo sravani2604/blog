@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>none on Matt Browne&#39;s Blog</title>
+    <link>https://mbblog-dev.azurewebsites.net/tags/none/</link>
+    <description>Recent content in none on Matt Browne&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 11 Dec 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://mbblog-dev.azurewebsites.net/tags/none/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>First Post</title>
+      <link>https://mbblog-dev.azurewebsites.net/blog/first_post/</link>
+      <pubDate>Tue, 11 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://mbblog-dev.azurewebsites.net/blog/first_post/</guid>
+      <description>Every blog has to have a first post right. Well this is mine.
+The plan is to detail how I have put this blog together with Azure DevOps. That will have to come in a later post because there a good amount of detail to document. I have over complicated it as a learning process (WordPress is just too easy). I&amp;rsquo;m sure I can complicate it some more, but for now it&amp;rsquo;s working and I have a space to write now.</description>
+    </item>
+    
+  </channel>
+</rss>

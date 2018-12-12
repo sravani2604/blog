@@ -3,37 +3,52 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://blogpoc.azurewebsites.net/about/</loc>
+    <loc>https://mbblog-dev.azurewebsites.net/blog/do-you-use-user-voice-well-you-should/</loc>
+    <lastmod>2018-12-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mbblog-dev.azurewebsites.net/blog/first_post/</loc>
+    <lastmod>2018-12-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mbblog-dev.azurewebsites.net/about/</loc>
     <lastmod>2014-09-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://blogpoc.azurewebsites.net/categories/</loc>
+    <loc>https://mbblog-dev.azurewebsites.net/categories/</loc>
+    <lastmod>2018-12-12T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://blogpoc.azurewebsites.net/blog/blank_1/</loc>
-  </url>
-  
-  <url>
-    <loc>https://blogpoc.azurewebsites.net/blog/</loc>
+    <loc>https://mbblog-dev.azurewebsites.net/blog/</loc>
+    <lastmod>2018-12-12T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://blogpoc.azurewebsites.net/categories/</loc>
+    <loc>https://mbblog-dev.azurewebsites.net/categories/</loc>
+    <lastmod>2018-12-12T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://blogpoc.azurewebsites.net/</loc>
-    <lastmod>2014-09-27T00:00:00+00:00</lastmod>
+    <loc>https://mbblog-dev.azurewebsites.net/</loc>
+    <lastmod>2018-12-12T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://blogpoc.azurewebsites.net/tags/</loc>
+    <loc>https://mbblog-dev.azurewebsites.net/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://mbblog-dev.azurewebsites.net/tags/none/</loc>
+    <lastmod>2018-12-11T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
