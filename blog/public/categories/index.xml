@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on Matt Browne&#39;s Blog</title>
+    <title>Matt Browne&#39;s Blog</title>
     <link>https://mbblog-dev.azurewebsites.net/categories/</link>
-    <description>Recent content in Categories on Matt Browne&#39;s Blog</description>
+    <description>Recent content on Matt Browne&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 12 Dec 2018 00:00:00 +0000</lastBuildDate>
@@ -12,12 +12,23 @@
     
     
     <item>
-      <title></title>
-      <link>https://mbblog-dev.azurewebsites.net/categories/</link>
+      <title>Do you use Azure User Voice?  Well you Should!</title>
+      <link>https://mbblog-dev.azurewebsites.net/blog/do-you-use-user-voice-well-you-should/</link>
       <pubDate>Wed, 12 Dec 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://mbblog-dev.azurewebsites.net/categories/</guid>
-      <description></description>
+      <guid>https://mbblog-dev.azurewebsites.net/blog/do-you-use-user-voice-well-you-should/</guid>
+      <description>Ok, so I hate it when people tell me what I should be doing too, but in this case, I am going to make an exception. Of course, this is just my opinion, but you should be using &amp;lsquo;Azure User Voice&amp;rsquo;
+What is Azure User Voice? User Voice is one of the ways Microsoft gets feedback about their products and suggestions around features and changes. You don&amp;rsquo;t have to be a Microsoft employee or an MVP, you can just go to the site and type in a suggestion.</description>
+    </item>
+    
+    <item>
+      <title>First Post</title>
+      <link>https://mbblog-dev.azurewebsites.net/blog/first_post/</link>
+      <pubDate>Tue, 11 Dec 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://mbblog-dev.azurewebsites.net/blog/first_post/</guid>
+      <description>Every blog has to have a first post right. Well this is mine.
+The plan is to detail how I have put this blog together with Azure DevOps. That will have to come in a later post because there a good amount of detail to document. I have over complicated it as a learning process (WordPress is just too easy). I&amp;rsquo;m sure I can complicate it some more, but for now it&amp;rsquo;s working and I have a space to write now.</description>
     </item>
     
   </channel>
