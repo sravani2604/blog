@@ -12,7 +12,7 @@ type = "post"
 draft = "false"
 +++
 
-Ok, so I hate it when people tell me what I should be doing too, but in the case I am going to make an exception.  Of course this is just my opinion, but you should be using 'Azure User Voice'
+Ok, so I hate it when people tell me what I should be doing too, but in this case I am going to make an exception.  Of course this is just my opinion, but you should be using 'Azure User Voice'
 
 #### What is Azure User Voice?
 
