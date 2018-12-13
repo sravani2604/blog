@@ -1,4 +1,4 @@
-baseurl = "https://mbblog-dev.azurewebsites.net" 
+baseurl = "" 
 languageCode = "en-us"
 title = "Matt Browne's Blog"
 theme = "hugo-future-imperfect"
