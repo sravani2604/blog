@@ -26,5 +26,5 @@ draft = "true"
 ```PowerShell
 #A PowerSHell code block
 Get-Service
-Get-AzureRMVM 
+Get-AzureRMVM
 ```
