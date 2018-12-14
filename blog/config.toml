@@ -142,7 +142,7 @@ canonifyURLs = true
 
 [[menu.main]]
   name = "TechSnips Videos"
-  url = "https://www.techsnips.io/?query=matt%20browne"
+  url = "https://www.techsnips.io/contributors/matt-browne/"
   identifier = "fa fa-sitemap"
   weight = 6
 
