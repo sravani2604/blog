@@ -42,9 +42,16 @@ hugo new site blog
 
 ![Creating a New Site](/img/2018/12/Hugo_1.gif)
 
-This should produce a directory struct that looks like this:
+This should produce a directory structure that looks like this:
 
 ![Base directory structure](/img/2018/12/Hugo_2.gif)
+
+The first thing we need to do is grab a theme from the Hugo site and put it in the themes directory.  
+* Go to https://themes.gohugo.io/ and select a theme you would like.  I am using [Future Imperfect](https://themes.gohugo.io/future-imperfect/) in this example.  
+* On the page for the theme there will be a download button that will take you to the GutHub page for the theme. 
+* From there click on the 'Clone or Download' button and Download the ZIP. 
+* Extract/Open the ZIP file and copy everything, apart from the .github  directory to your themes directory in the new site file structure.
+* The path to my theme is now "C:\Hugo\blog\themes\hugo-future-imperfect-master" 
 
 
 https://themes.gohugo.io/
