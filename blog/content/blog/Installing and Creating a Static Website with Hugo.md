@@ -72,38 +72,22 @@ In the PowerShell window, make sure you are at the root of the new site (C:\hugo
 hugo new posts/my_first_blog_post.md
 ```
 
-This will create a single markdown file in the /content/posts directory
+This will create a single markdown file in the /content/posts directory.  You can then go to the file and use it as a template for your first post to the site.  Just edit it with the content you want, using markdown and this is what Hugo will use to create the page.  Notice the "draft: true" in the frontmatter section of the file.  This will mean that the page won't be shown to start with but there is a way we can see these, more on this later.
+
+## Build the Site and Inspect the Output
+
+The last thing we need to do is build the site and take a look at what it outputs for us.  To do this, just type 'Hugo' into the command line at the root of the blog.  Hugo will now use the post markdown file, and the template to build the site.  We should get an output something like this:
 
 
+![Building the site](/img/2018/12/Hugo_3.png)
 
+Once this is complete, it normally take a few milliseconds, you should have bunch of file in the 'C:\Hugo\blog\public' directory.  This is our static site which can be copied to a web server or host to serve.  It's as simple as that ;)
 
+## Testing the site.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# Section 1
-## Sub-Section 1
-
-[some words](http://google.com)
-
-[I'm an inline-style link with title - Markdown cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet "Google's Homepage")
-
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Image")
-
-
-```PowerShell
-#A PowerShell code block
-Get-Service
-Get-AzureRMVM 
+One of the great features of Hugo is that it can serve the pages on your local machine to test them.  To do this run:
 ```
+Hugo Server -D
+```
+Now you can browse to http://localhost:1313/ and you will see your newly created site, Complete with your new post that you created.
+
