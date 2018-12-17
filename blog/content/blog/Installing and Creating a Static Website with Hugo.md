@@ -44,7 +44,7 @@ hugo new site blog
 
 This should produce a directory structure that looks like this:
 
-![Base directory structure](/img/2018/12/Hugo_2.gif)
+![Base directory structure](/img/2018/12/Hugo_2.png)
 
 The first thing we need to do is grab a theme from the Hugo site and put it in the themes directory.  
 * Go to https://themes.gohugo.io/ and select a theme you would like.  I am using [Future Imperfect](https://themes.gohugo.io/future-imperfect/) in this example.  
