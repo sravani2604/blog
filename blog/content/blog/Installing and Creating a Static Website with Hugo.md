@@ -17,14 +17,37 @@ draft = "true"
 
 The first thing is to make sure you have Chocolatey Installed.  I know if is a little off topic, but it makes it so easy to install Hugo that it's worth doing. Take a look at [this page](https://chocolatey.org/install) if you are having issues or want to learn more.
 
-To do this run the following line in an evelated PowerShell prompt:
+To do this run the following line in an elevated PowerShell prompt:
 
 
 ```PowerShell
 Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))
 ```
 
+From there, just run the following line to get Hugo installed:
 
+```PowerShell
+choco install hugo -confirm
+```
+
+## Creating a New Site with Hugo
+
+Now that you have Hugo installed we need to create the blank site to build up.  I have create a directory called 'C:\Hugo' to create everything in.
+
+Open a new PowerShell prompt and navigate to the new Hugo folder.  Then simply type the following to create a new site called 'blog'.  You can call it anything you like but I am starting with a new blog.
+
+```PowerShell
+hugo new site blog
+```
+
+![Creating a New Site](/img/2018/12/HGugo_1.gif)
+
+
+
+
+Now we have the 
+
+https://themes.gohugo.io/
 
 
 
@@ -40,7 +63,7 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.We
 
 
 ```PowerShell
-#A PowerSHell code block
+#A PowerShell code block
 Get-Service
 Get-AzureRMVM 
 ```
