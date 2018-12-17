@@ -55,7 +55,12 @@ The first thing we need to do is grab a theme from the Hugo site and put it in t
 * Extract/Open the ZIP file and copy everything, apart from the .github  directory to your themes directory in the new site file structure.
 * The path to my theme is now "C:\Hugo\blog\themes\hugo-future-imperfect-master" 
 
-# Put something about the config for the site.......
+## Applying a Config for the Site
+
+Now you theme is in place you will need to add some bits to the config file for the site so that it can use the theme.  
+
+If you look at the theme files you copied over, there is an exampleSite directory with some example that yu can copy.  In there copy the config.toml file and paste it to the root of your new site.  In my case this is at **C:\Hugo\blog**
+
 
 ## Create your first page for the site
 
