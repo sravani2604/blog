@@ -40,12 +40,12 @@ Open a new PowerShell prompt and navigate to the new Hugo folder.  Then simply t
 hugo new site blog
 ```
 
-![Creating a New Site](/img/2018/12/HGugo_1.gif)
+![Creating a New Site](/img/2018/12/Hugo_1.gif)
 
+This should produce a directory struct that looks like this:
 
+![Base directory structure](/img/2018/12/Hugo_2.gif)
 
-
-Now we have the 
 
 https://themes.gohugo.io/
 
