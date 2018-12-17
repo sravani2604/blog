@@ -87,7 +87,7 @@ Once this is complete, it normally take a few milliseconds, you should have bunc
 
 One of the great features of Hugo is that it can serve the pages on your local machine to test them.  To do this run:
 ```
-Hugo Server -D
+hugo server -D
 ```
 Now you can browse to http://localhost:1313/ and you will see your newly created site, Complete with your new post that you created.
 
