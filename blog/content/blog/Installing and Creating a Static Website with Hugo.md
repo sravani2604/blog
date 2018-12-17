@@ -59,12 +59,35 @@ The first thing we need to do is grab a theme from the Hugo site and put it in t
 
 Now you theme is in place you will need to add some bits to the config file for the site so that it can use the theme.  
 
-If you look at the theme files you copied over, there is an exampleSite directory with some example that yu can copy.  In there copy the config.toml file and paste it to the root of your new site.  In my case this is at **C:\Hugo\blog**
+If you look at the theme files you copied over, there is an exampleSite directory with some examples that you can copy.  In there copy the config.toml file and paste it to the root of your new site.  In my case this is at **C:\Hugo\blog**.  I'm not going to go into detail [about the config file](https://gohugo.io/getting-started/configuration/) but take a look and you can edit things like the title to configure the site the way you want.
 
 
 ## Create your first page for the site
 
-The site now has a theme
+The site now has a theme and config setup, you just need to add your first page.
+
+In the PowerShell window, make sure you are at the root of the new site (C:\hugo\blog in my case) and type the following:
+
+```PowerShell
+hugo new posts/my_first_blog_post.md
+```
+
+This will create a single markdown file in the /content/posts directory
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
