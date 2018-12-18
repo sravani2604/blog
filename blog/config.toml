@@ -11,6 +11,9 @@ pluralizeListTitles = false
 enableRobotsTXT = true
 canonifyURLs = true 
 
+[permalinks]
+  post = "/blog/:title/"
+
 [params]
   # Sets the meta tag description
   description          = "Matt Browne's Blog"
@@ -79,6 +82,8 @@ canonifyURLs = true
   username  = ""
   repo      = ""
   branch    = ""
+
+
 
   [params.staticman.recaptcha]
     sitekey = "SITE_KEY"
