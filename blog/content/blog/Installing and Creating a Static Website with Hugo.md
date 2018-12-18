@@ -94,5 +94,5 @@ hugo server -D
 ```
 Now you can browse to http://localhost:1313/ and you will see your newly created site, complete with the new post that you created.
 
-![Locally Hosted Site](/img/2018/12/Hugo_3.png)
+![Locally Hosted Site](/img/2018/12/Hugo_4.png)
 
