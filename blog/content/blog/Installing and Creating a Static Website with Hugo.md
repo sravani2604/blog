@@ -15,7 +15,7 @@ draft = "true"
 
 ## Installing Hugo on a Windows Machine
 
-The first thing is to make sure you have Chocolatey Installed.  I know if is a little off topic, but it makes it so easy to install Hugo that it's worth doing. Take a look at [this page](https://chocolatey.org/install) if you are having issues or want to learn more.
+The first thing is to make sure you have Chocolatey Installed.  I know it's a little off topic, but it makes it so easy to install Hugo that it's worth doing. Take a look at [this page](https://chocolatey.org/install) if you are having issues or want to learn more.
 
 To do this run the following line in an elevated PowerShell prompt:
 
@@ -49,7 +49,7 @@ This should produce a directory structure that looks like this:
 The first thing we need to do is grab a theme from the Hugo site and put it in the themes directory.  
 * Go to https://themes.gohugo.io/ and select a theme you would like.  I am using [Future Imperfect](https://themes.gohugo.io/future-imperfect/) in this example.  
 
-* On the page for the theme there will be a download button that will take you to the GutHub page for the theme. 
+* On the page for the theme, there will be a download button that will take you to the GitHub page for the theme. 
 
 * From there click on the 'Clone or Download' button and Download the ZIP. 
 
@@ -59,7 +59,7 @@ The first thing we need to do is grab a theme from the Hugo site and put it in t
 
 ## Applying a Config for the Site
 
-Now you theme is in place you will need to add some bits to the config file for the site so that it can use the theme.  
+Now your theme is in place you will need to add some bits to the config file for the site so that it can use the theme.  
 
 If you look at the theme files you copied over, there is an exampleSite directory with some examples that you can copy.  In there copy the config.toml file and paste it to the root of your new site.  In my case this is at **C:\Hugo\blog**.  I'm not going to go into detail [about the config file](https://gohugo.io/getting-started/configuration/) but take a look and you can edit things like the title to configure the site the way you want.
 
@@ -83,7 +83,7 @@ The last thing we need to do is build the site and take a look at what it output
 
 ![Building the site](/img/2018/12/Hugo_3.png)
 
-Once this is complete, it normally take a few milliseconds, you should have bunch of file in the 'C:\Hugo\blog\public' directory.  This is our static site which can be copied to a web server or host to serve.  It's as simple as that ;)
+Once this is complete, it normally take a few milliseconds, you should have a bunch of files in the 'C:\Hugo\blog\public' directory.  This is our static site which can be copied to a web server or host to serve.  It's as simple as that ;)
 
 ## Testing the site.
 
@@ -91,7 +91,7 @@ One of the great features of Hugo is that it can serve the pages on your local m
 ```
 hugo server -D
 ```
-Now you can browse to http://localhost:1313/ and you will see your newly created site, complete with your new post that you created.
+Now you can browse to http://localhost:1313/ and you will see your newly created site, complete with the new post that you created.
 
 ![Locally Hosted Site](/img/2018/12/Hugo_3.png)
 
