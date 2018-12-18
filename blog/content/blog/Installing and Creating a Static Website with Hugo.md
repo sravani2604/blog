@@ -71,10 +71,10 @@ The site now has a theme and config setup, you just need to add your first page.
 In the PowerShell window, make sure you are at the root of the new site (C:\hugo\blog in my case) and type the following:
 
 ```PowerShell
-hugo new posts/my_first_blog_post.md
+hugo new blog/my_first_blog_post.md
 ```
 
-This will create a single markdown file in the /content/posts directory.  You can then go to the file and use it as a template for your first post to the site.  Just edit it with the content you want, using markdown and this is what Hugo will use to create the page.  Notice the "draft: true" in the frontmatter section of the file.  This will mean that the page won't be shown to start with but there is a way we can see these, more on this later.
+This will create a single markdown file in the /content/blog directory.  You can then go to the file and use it as a template for your first post to the site.  Just edit it with the content you want, using markdown and this is what Hugo will use to create the page.  Notice the "draft: true" in the frontmatter section of the file.  This will mean that the page won't be shown to start with but there is a way we can see these, more on this later.
 
 ## Build the Site and Inspect the Output
 
@@ -92,4 +92,6 @@ One of the great features of Hugo is that it can serve the pages on your local m
 hugo server -D
 ```
 Now you can browse to http://localhost:1313/ and you will see your newly created site, complete with your new post that you created.
+
+![Locally Hosted Site](/img/2018/12/Hugo_3.png)
 
