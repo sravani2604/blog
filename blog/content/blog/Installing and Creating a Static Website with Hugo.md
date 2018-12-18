@@ -32,7 +32,7 @@ choco install hugo -confirm
 
 ## Creating a New Site with Hugo
 
-Now that you have Hugo installed we need to create the blank site to build up.  I have create a directory called 'C:\Hugo' to create everything in.
+Now that you have Hugo installed we need to create the blank site to build up.  I have created a directory called 'C:\Hugo' to create everything in.
 
 Open a new PowerShell prompt and navigate to the new Hugo folder.  Then simply type the following to create a new site called 'blog'.  You can call it anything you like but I am starting with a new blog.
 
@@ -46,6 +46,7 @@ This should produce a directory structure that looks like this:
 
 
 ## Adding a Theme to your Site
+
 The first thing we need to do is grab a theme from the Hugo site and put it in the themes directory.  
 * Go to https://themes.gohugo.io/ and select a theme you would like.  I am using [Future Imperfect](https://themes.gohugo.io/future-imperfect/) in this example.  
 
@@ -61,7 +62,7 @@ The first thing we need to do is grab a theme from the Hugo site and put it in t
 
 Now your theme is in place you will need to add some bits to the config file for the site so that it can use the theme.  
 
-If you look at the theme files you copied over, there is an exampleSite directory with some examples that you can copy.  In there copy the config.toml file and paste it to the root of your new site.  In my case this is at **C:\Hugo\blog**.  I'm not going to go into detail [about the config file](https://gohugo.io/getting-started/configuration/) but take a look and you can edit things like the title to configure the site the way you want.
+If you look at the theme files you copied over, there is an exampleSite directory with some examples that you can copy.  In there copy the config.toml file and paste it to the root of your new site.  In my case, this is at **C:\Hugo\blog**.  I'm not going to go into detail [about the config file](https://gohugo.io/getting-started/configuration/) but take a look and you can edit things like the title to configure the site the way you want.
 
 
 ## Create your first page for the site
