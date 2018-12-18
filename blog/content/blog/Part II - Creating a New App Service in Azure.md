@@ -7,7 +7,7 @@ featured = "pipes.jpeg"
 featuredalt = ""
 featuredpath = "date"
 linktitle = ""
-title = "Part II - Creating a New App Service in Azure "
+title = "Part II - Creating a Web App in Azure "
 tags = [""]
 type = "post"
 draft = "true"
@@ -30,3 +30,14 @@ Add the details like the name and resource group you want it in, and at the bott
 Click on 'Dev / Test', select the F1 plan (ie the free one) and click 'Apply'.  Once you are back at the blade with all the details click 'Create' and you new App Service Plan will start creating.  It only takes a few seconds normally.
 
 ## Stage 2 - Create the App Service
+
+Now that we have the App Service Plan created, we can get to creating the App Service itself.  As before go to the Azure Portal, then All Services and search for 'App Service'.  You will get a few more options this time so click on the one just called 'App Services'.
+
+Click on '+ Add' button and it will take you to the marketplace where you need to select 'Web App' (normally the first one in the list).  On the Web App page that appear, click the 'Create' button at the bottom.
+
+From here you should see the Web App blade that you need to put the details into.
+
+![App Service Plan Config](/img/2018/12/AppServicePlan_03.png)
+
+Just put in the name and the Resource Group you wish to use and Select the App Service you have just created.  All that is left then is to click create.
+
