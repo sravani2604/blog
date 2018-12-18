@@ -7,7 +7,7 @@ featured = "cogs.jpg"
 featuredalt = ""
 featuredpath = "date"
 linktitle = "Step by Step Guide to Installing and Configuring Hugo to create your own Static Website"
-title = "Installing and Creating a Static Website with Hugo"
+title = "Part I - Installing and Creating a Static Website with Hugo"
 tags = ["Hugo"]
 type = "post"
 draft = "true"
@@ -84,7 +84,7 @@ The last thing we need to do is build the site and take a look at what it output
 
 ![Building the site](/img/2018/12/Hugo_3.png)
 
-Once this is complete, it normally take a few milliseconds, you should have a bunch of files in the 'C:\Hugo\blog\public' directory.  This is our static site which can be copied to a web server or host to serve.  It's as simple as that ;)
+Once this is complete, it normally takes a few milliseconds, you should have a bunch of files in the 'C:\Hugo\blog\public' directory.  This is our static site which can be copied to a web server or web host to serve.  It's as simple as that ;)
 
 ## Testing the site.
 
@@ -96,3 +96,4 @@ Now you can browse to http://localhost:1313/ and you will see your newly created
 
 ![Locally Hosted Site](/img/2018/12/Hugo_4.png)
 
+Notice that the 'First Blog Post' appears on the page, even when we marked it as a draft.  This is because we used the '-D' parameter on the Hugo Server command.  This makes it show full posts and drafts.  So see the site for real, just remove this parameter and you will see the site as it would be hosted.
