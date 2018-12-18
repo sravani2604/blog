@@ -11,7 +11,7 @@ title = "Installing and Creating a Static Website with Hugo"
 tags = ["Hugo"]
 type = "post"
 draft = "true"
-+++
++++ 
 
 ## Installing Hugo on a Windows Machine
 
