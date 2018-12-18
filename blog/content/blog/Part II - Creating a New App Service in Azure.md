@@ -45,4 +45,9 @@ When the app is created, go back to the App Services blade and you will see the 
 
 ![App Service Plan Config](/img/2018/12/AppServicePlan_03.png)
 
+
+## Also.....
+
+If you are interested my colleague Lohith over at [TechSnips](https://www.techsnips.io/snips/how-to-create-an-azure-app-service-using-powershell/) has created a video on how to do this in PowerShell.
+
 {{< youtube 1D0NFqzFjgQ >}}
