@@ -1,13 +1,13 @@
 +++
 author = "Matt Browne"
 categories = [""]
-date = ""
-description = ""
-featured = "pipes.jpeg"
+date = "2018-12-19"
+description = "Step by step run through of how to create a build of the Hugo blog in Azure DevOps from a GitHub Depo"
+featured = "buildit.jpg"
 featuredalt = ""
 featuredpath = "date"
 linktitle = ""
-title = ""
+title = "Part III - Creating a Build With Azure DevOps Pipelines"
 tags = [""]
 type = "post"
 draft = "true"
