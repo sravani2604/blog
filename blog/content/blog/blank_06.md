@@ -1,13 +1,13 @@
 +++
 author = "Matt Browne"
 categories = [""]
-date = ""
+date = "2018-12-18"
 description = ""
-featured = "pipes.jpeg"
+featured = "blocks.jpg"
 featuredalt = ""
 featuredpath = "date"
 linktitle = ""
-title = ""
+title = "Part IV - Creating a Release with Azure DevOps Pipelines"
 tags = [""]
 type = "post"
 draft = "true"
