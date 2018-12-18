@@ -3,12 +3,12 @@ author = "Matt Browne"
 categories = [""]
 date = "2018-12-18"
 description = ""
-featured = "pipes.jpeg"
+featured = "web-tree.jpg"
 featuredalt = ""
 featuredpath = "date"
-linktitle = ""
+linktitle = "Step by Step Guide to Installing and Configuring Hugo to create your own Static Website"
 title = "Installing and Creating a Static Website with Hugo"
-tags = ["default"]
+tags = ["Hugo"]
 type = "post"
 draft = "true"
 +++
