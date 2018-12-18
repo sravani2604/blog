@@ -40,8 +40,6 @@ Open a new PowerShell prompt and navigate to the new Hugo folder.  Then simply t
 hugo new site blog
 ```
 
-![Creating a New Site](/img/2018/12/Hugo_1.gif)
-
 This should produce a directory structure that looks like this:
 
 ![Base directory structure](/img/2018/12/Hugo_2.png)
@@ -50,9 +48,13 @@ This should produce a directory structure that looks like this:
 ## Adding a Theme to your Site
 The first thing we need to do is grab a theme from the Hugo site and put it in the themes directory.  
 * Go to https://themes.gohugo.io/ and select a theme you would like.  I am using [Future Imperfect](https://themes.gohugo.io/future-imperfect/) in this example.  
+
 * On the page for the theme there will be a download button that will take you to the GutHub page for the theme. 
+
 * From there click on the 'Clone or Download' button and Download the ZIP. 
+
 * Extract/Open the ZIP file and copy everything, apart from the .github  directory to your themes directory in the new site file structure.
+
 * The path to my theme is now "C:\Hugo\blog\themes\hugo-future-imperfect-master" 
 
 ## Applying a Config for the Site
@@ -89,5 +91,5 @@ One of the great features of Hugo is that it can serve the pages on your local m
 ```
 hugo server -D
 ```
-Now you can browse to http://localhost:1313/ and you will see your newly created site, Complete with your new post that you created.
+Now you can browse to http://localhost:1313/ and you will see your newly created site, complete with your new post that you created.
 
