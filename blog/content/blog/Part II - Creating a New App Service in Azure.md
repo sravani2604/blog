@@ -1,14 +1,14 @@
 +++
 author = "Matt Browne"
 categories = [""]
-date = ""
+date = "2018-12-18"
 description = ""
 featured = "rougecafe.jpg"
 featuredalt = ""
 featuredpath = "date"
 linktitle = ""
 title = "Part II - Creating a Web App in Azure "
-tags = [""]
+tags = ["Azure"]
 type = "post"
 draft = "true"
 +++
@@ -39,5 +39,10 @@ From here you should see the Web App blade that you need to put the details into
 
 ![App Service Plan Config](/img/2018/12/AppServicePlan_03.png)
 
-Just put in the name and the Resource Group you wish to use and Select the App Service you have just created.  All that is left then is to click create.
+Just put in the name and the Resource Group you wish to use and select the App Service you have just created.  All that is left then is to click create.
 
+When the app is created, go back to the App Services blade and you will see the new app in the list.  If you click on the app it will show you the url for your app in the top right.  Click on that an you will get the starter page.
+
+![App Service Plan Config](/img/2018/12/AppServicePlan_03.png)
+
+{{< youtube 1D0NFqzFjgQ >}}
