@@ -50,7 +50,7 @@ Now you have everything you need to create your build, go to Pipelines on the le
 
 Now we have a build, it just needs some configuration....
 
-* Make sure that 'Pipeline' is selected on the left part of the config screen/  Look for the 'Agent Pool' drop-down and select 'Windows Container'.
+* Make sure that 'Pipeline' is selected on the left part of the config screen.  Look for the 'Agent Pool' drop-down and select 'Windows Container'.
 
 * Select 'Get Sources' on the left and check through the config.  This has already been selected in a previous step, so there shouldn't be anything to change here.
 
@@ -60,10 +60,10 @@ Now we have a build, it just needs some configuration....
 
 * Now you should have two options in the list for Hugo.  Select the top one and click on add.  This should make a new stage appear on the left under the 'Agent Job 1' stage.
 
-* Now we need to fill a few details for Hugo to understand what it is building.  Use these setting to fill in the blanks:
+* Now we need to fill in a few details for Hugo to understand what it is building.  Use these setting to fill in the blanks:
 
 ```
-# My hugo site is in a subdir called 'blog' you may not need this.
+# My hugo site is in a subdir called 'blog', you may not need this.
 Source = $(Build.SourcesDirectory)/blog
 
 # This should be the same for everyone
