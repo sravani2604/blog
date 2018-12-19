@@ -35,6 +35,9 @@ In your new organisation, click on the 'New Project' button, fill in the project
 
 ![App Service Plan Config](/img/2018/12/AzureDevOps_Build_01.png)
 
+
+## Create a New Build
+
 Now you have everything you need to create you build, go to Pipelines on the left, then click the New Pipeline button.  On the wizard, select the options as follows:
 1. Location - Click on the 'Use the Visual Designer' link.
 2. Select the Repos that you are using, and the branch it's going to pull from.
@@ -42,6 +45,8 @@ Now you have everything you need to create you build, go to Pipelines on the lef
 4. Save - Click on the 'Save & queue' selection box at the top and select 'Save'.
 
 ![App Service Plan Config](/img/2018/12/AzureDevOps_Build_02.gif)
+
+## Configure the New Build
 
 Now we have a build, it just needs some configuration....
 
@@ -55,7 +60,7 @@ Now we have a build, it just needs some configuration....
 
 * Now you should have two options in the list for Hugo.  Select the top one and click on add.  This should make a new stage appear on the left under the 'Agent Job 1' stage.
 
-* Now we need to fill a few details for Hugo to understand what it is building.  Use these setting to fill in the blanks
+* Now we need to fill a few details for Hugo to understand what it is building.  Use these setting to fill in the blanks:
 
 ```
 # My hugo site is in a subdir called 'blog' you may not need this.
@@ -64,9 +69,14 @@ Source = $(Build.SourcesDirectory)/blog
 # This should be the same for everyone
 Destination = $(Build.ArtifactStagingDirectory)
 
-This is the URL from the Azure Web App we created.
-Base URL = https://mb-blog-dev.azurewebsites.net
+# This is the URL from the Azure Web App we created.
+Base URL = https://mb-blog-demo.azurewebsites.net
 ```
+
+* Finally we just need to publish the artifact by clicking on the plus symbol next to the 'Agent Job 1' stage and searching for 'publish build artifacts'.  The config here should be left as default.
+* Click on the 'Save & queue' drop down and select 'Save & queue', then you are done.
+
+
 
 
 
