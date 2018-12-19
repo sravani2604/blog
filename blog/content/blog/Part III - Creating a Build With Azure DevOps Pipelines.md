@@ -51,7 +51,23 @@ Now we have a build, it just needs some configuration....
 
 * Select 'Agent Job' and git the plus symbol.  Type Hugo into the search box that appears on the right and hit return.  You will now see the Hugo extension available from the marketplace.  Just click on the 'Get it Free' option and it will take you to the marketplace to install it.  Run through this until it takes you back to the organisation.
 
-* Go back to the original browser tab for the config (the marketplace opens a new tab).  Click on refresh on the right and search for Hugo again
+* Go back to the original browser tab for the config (the marketplace opens a new tab).  Click on refresh on the right and search for Hugo again.
+
+* Now you should have two options in the list for Hugo.  Select the top one and click on add.  This should make a new stage appear on the left under the 'Agent Job 1' stage.
+
+* Now we need to fill a few details for Hugo to understand what it is building.  Use these setting to fill in the blanks
+```
+# My hugo site is in a subdir called 'blog' you may not need this.
+Source = $(Build.SourcesDirectory)/blog
+
+# This should be the same for everyone
+Destination = $(Build.ArtifactStagingDirectory)
+
+This is the URL from the Azure Web App we created.
+Base URL = https://mb-blog-dev.azurewebsites.net
+```
+
+
 
 
 
