@@ -26,8 +26,18 @@ or another
 
 Firstly you are going to need the following two item:
 
-* You need to goto https://devops.azure.com and [create an 'organisation'](https://docs.microsoft.com/en-us/azure/devops/organizations/accounts/create-organization?view=vsts) if you don't have one already.  It's very simple, so I'm not going to run through that here.
+* Go to https://devops.azure.com and [create an 'organisation'](https://docs.microsoft.com/en-us/azure/devops/organizations/accounts/create-organization?view=vsts) if you don't have one already.  It's very simple, so I'm not going to run through that here.
 * Your Hugo site needs to be in it's own GitHub Repo.  This is where the  Azure DevOps (ADO) build will be triggered from and where Hugo gets all the config from etc.  This will need to be the full Hugo directory from the build and not just the 'public' directory.
+
+## Create a New Project
+
+In your new organisation, click on the 'New Project' button, fill in the project name, set it as Public and click Create.
+
+![App Service Plan Config](/img/2018/12/AzureDevOps_Build_01.png)
+
+Now you have everything you need to create you build, so goto Pipelines on the left, then click the New Pipeline button.  On the wizard, select the options as follows:
+1. Choose your Repos.  I am using GitHub for this but Azure Repos and just as good.
+2. Select the Repos
 
 
 
