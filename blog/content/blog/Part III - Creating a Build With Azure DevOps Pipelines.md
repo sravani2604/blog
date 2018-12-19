@@ -2,7 +2,7 @@
 author = "Matt Browne"
 categories = [""]
 date = "2018-12-18"
-description = "Step by step run through of how to create a build of the Hugo blog in Azure DevOps from a GitHub Depo"
+description = "Step by step run through of how to create a build of the Hugo blog in Azure DevOps from a GitHub Repo"
 featured = "buildit.jpg"
 featuredalt = ""
 featuredpath = "date"
@@ -12,6 +12,22 @@ tags = [""]
 type = "post"
 draft = "true"
 +++
+
+Now that we have a Hugo site built and the Azure Web App spun up and ready to go, the next step is to look at Azure DevOps Pipelines and create an automated build of the site.
+
+---
+This is some text
+
+about something
+
+or another
+
+---
+
+Firstly you are going to need the following two item:
+
+* You need to goto https://devops.azure.com and [create an 'organisation'](https://docs.microsoft.com/en-us/azure/devops/organizations/accounts/create-organization?view=vsts) if you don't have one already.  It's very simple, so I'm not going to run through that here.
+* Your Hugo site needs to be in it's own GitHub Repo.  This is where the  Azure DevOps (ADO) build will be triggered from and where Hugo gets all the config from etc.  This will need to be the full Hugo directory from the build and not just the 'public' directory.
 
 
 
