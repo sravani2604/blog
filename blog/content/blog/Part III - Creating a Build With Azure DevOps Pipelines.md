@@ -56,6 +56,7 @@ Now we have a build, it just needs some configuration....
 * Now you should have two options in the list for Hugo.  Select the top one and click on add.  This should make a new stage appear on the left under the 'Agent Job 1' stage.
 
 * Now we need to fill a few details for Hugo to understand what it is building.  Use these setting to fill in the blanks
+
 ```
 # My hugo site is in a subdir called 'blog' you may not need this.
 Source = $(Build.SourcesDirectory)/blog
@@ -69,20 +70,3 @@ Base URL = https://mb-blog-dev.azurewebsites.net
 
 
 
-
-
-# Section 1
-## Sub-Section 1
-
-[I'm an inline-style link with title - Markdown cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet "Google's Homepage")
-
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Image")
-
-
-```PowerShell
-#A PowerSHell code block
-Get-Service
-Get-AzureRMVM
-```
-
-# Link to the 
