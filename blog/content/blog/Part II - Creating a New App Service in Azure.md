@@ -8,7 +8,7 @@ featuredalt = ""
 featuredpath = "date"
 linktitle = ""
 title = "Part II - Creating a Web App in Azure "
-tags = ["Azure"]
+tags = ["Azure DevOps"]
 type = "post"
 draft = "true"
 +++
