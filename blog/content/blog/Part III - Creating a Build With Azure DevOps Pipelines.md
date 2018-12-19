@@ -24,10 +24,10 @@ or another
 
 ---
 
-Firstly you are going to need the following two item:
+Firstly you are going to need the following two items:
 
 * Go to https://devops.azure.com and [create an 'organisation'](https://docs.microsoft.com/en-us/azure/devops/organizations/accounts/create-organization?view=vsts) if you don't have one already.  It's very simple, so I'm not going to run through that here.
-* Your Hugo site needs to be in it's own GitHub Repo.  This is where the  Azure DevOps (ADO) build will be triggered from and where Hugo gets all the config from etc.  This will need to be the full Hugo directory from the build and not just the 'public' directory.
+* Your Hugo site needs to be in its own GitHub Repo.  This is where the  Azure DevOps (ADO) build will be triggered from and where Hugo gets all the config from etc.  This will need to be the full Hugo directory from the build and not just the 'public' directory.
 
 ## Create a New Project
 
@@ -38,7 +38,7 @@ In your new organisation, click on the 'New Project' button, fill in the project
 
 ## Create a New Build
 
-Now you have everything you need to create you build, go to Pipelines on the left, then click the New Pipeline button.  On the wizard, select the options as follows:
+Now you have everything you need to create your build, go to Pipelines on the left, then click the New Pipeline button.  On the wizard, select the options as follows:
 1. Location - Click on the 'Use the Visual Designer' link.
 2. Select the Repos that you are using, and the branch it's going to pull from.
 3. Template - Select 'Empty Job' at the top of the selection.  We will fill it out later.
@@ -50,7 +50,7 @@ Now you have everything you need to create you build, go to Pipelines on the lef
 
 Now we have a build, it just needs some configuration....
 
-* Make sure that 'Pipeline' is selected on the left part of the config screen/  Look for the 'Agent Pool' dropdown and select 'Windows Container'.
+* Make sure that 'Pipeline' is selected on the left part of the config screen/  Look for the 'Agent Pool' drop-down and select 'Windows Container'.
 
 * Select 'Get Sources' on the left and check through the config.  This has already been selected in a previous step, so there shouldn't be anything to change here.
 
@@ -73,7 +73,7 @@ Destination = $(Build.ArtifactStagingDirectory)
 Base URL = https://mb-blog-demo.azurewebsites.net
 ```
 
-* Finally we just need to publish the artifact by clicking on the plus symbol next to the 'Agent Job 1' stage and searching for 'publish build artifacts'.  The config here should be left as default.
+* Finally, we just need to publish the artifact by clicking on the plus symbol next to the 'Agent Job 1' stage and searching for 'publish build artifacts'.  The config here should be left as default.
 * Click on the 'Save & queue' drop down and select 'Save & queue', then you are done.
 
 
