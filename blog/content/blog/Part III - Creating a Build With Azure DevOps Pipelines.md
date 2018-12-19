@@ -13,16 +13,13 @@ type = "post"
 draft = "true"
 +++
 
+---
+This is part of a blog series 
+
+---
+
+
 Now that we have a Hugo site built and the Azure Web App spun up and ready to go, the next step is to look at Azure DevOps Pipelines and create an automated build of the site.
-
----
-This is some text
-
-about something
-
-or another
-
----
 
 Firstly you are going to need the following two items:
 
