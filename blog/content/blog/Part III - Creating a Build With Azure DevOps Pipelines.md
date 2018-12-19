@@ -43,7 +43,11 @@ Now you have everything you need to create you build, go to Pipelines on the lef
 
 ![App Service Plan Config](/img/2018/12/AzureDevOps_Build_02.gif)
 
-
+Now we have a build, it just needs some configuration....
+* Make sure that 'Pipeline' is selected on the left part of the config screen/  Look for the 'Agent Pool' dropdown and select 'Windows Container'.
+* Select 'Get Sources' on the left and check through the config.  This has already been selected in a previous step, so there shouldn't be anything to change here.
+* Select 'Agent Job' and git the plus symbol.  Type Hugo into the search box that appears on the right and hit return.  You will now see the Hugo extension available from the marketplace.  Just click on the 'Get it Free' option and it will take you to the marketplace to install it.  Run through this until it takes you back to the organisation.
+* Go back to the original browser tab for the config (the marketplace opens a new tab).  Click on refresh on the right and search for Hugo again
 
 
 
