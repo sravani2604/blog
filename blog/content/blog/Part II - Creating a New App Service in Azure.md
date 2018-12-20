@@ -13,6 +13,20 @@ type = "post"
 draft = "true"
 +++
 
+---
+This is part of a blog series titled "Creating and Deploying a Static Website with Azure DevOps Pipelines":
+
+* [Part I - Installing and Creating a Static Website with Hugo](/blog/part-i-installing-and-creating-a-static-website-with-hugo/)
+
+* [Part II - Creating a New App Service in Azure](/blog/part-ii-creating-a-new-app-service-in-azure/)
+
+* [Part III - Creating a Build With Azure DevOps Pipelines](/blog/part-iii-creating-a-build-with-azure-devops-pipelines/)
+
+* [Part IV - Creating a Release with Azure DevOps Pipelines](/blog/part-iv-creating-a-release-with-azure-devops-pipelines/)
+
+
+---
+
 Once you have a site to created with Hugo, or any other static site generator for that matter, you will need somewhere to host it.  In this post we are going to create a new Azure App Service on the free tier to host the site.
 
 ## Stage 1 - Create the App Service Plan
