@@ -19,7 +19,7 @@ Hugo just creates the static files for the site, but they are going to need to b
 
 The only missing part is somewhere to host the site, which can be done very cheaply (possibly even free) and easily with an Azure App Service.  It doesn't have to be in Azure of course, but it fits nicely with what I'm doing, and the good part with all this is that we can swap out the parts without too much of an issue.  The hosting, repo, build servers could all change in the future if needed.  Let's do it!
 
-That's what this series of posts is all about. ie Blog posts on how I created this Blog (very meta hey!)
+That's what this series of posts is all about. ie blog posts on how I created this blog (very meta hey!)
 
 Part I - Installing and Creating a Static Website with Hugo
 
