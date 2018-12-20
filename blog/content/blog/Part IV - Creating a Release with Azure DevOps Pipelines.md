@@ -8,7 +8,7 @@ featuredalt = ""
 featuredpath = "date"
 linktitle = ""
 title = "Part IV - Creating a Release with Azure DevOps Pipelines"
-tags = [""]
+tags = ["Azure DevOps"]
 type = "post"
 draft = "true"
 +++
