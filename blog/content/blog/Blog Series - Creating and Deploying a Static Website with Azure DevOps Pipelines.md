@@ -3,7 +3,7 @@ author = "Matt Browne"
 categories = [""]
 date = "2018-12-17"
 description = ""
-featured = "pipes.jpeg"
+featured = "engine.jpg"
 featuredalt = ""
 featuredpath = "date"
 linktitle = ""
@@ -21,11 +21,11 @@ The only missing part is somewhere to host the site, which can be done very chea
 
 That's what this series of posts is all about. ie Blog posts on how I created this Blog (very meta hey!)
 
+Part I - Installing and Creating a Static Website with Hugo
 
+Part II - Creating a New App Service in Azure
 
-Post 1 - Installing and Creating a Static Website with Hugo
+Part III - Creating a Build With Azure DevOps Pipelines
 
-Post 2 - Build
-
-Post 3 - Release
+Part IV - Creating a Release with Azure DevOps Pipelines
 
