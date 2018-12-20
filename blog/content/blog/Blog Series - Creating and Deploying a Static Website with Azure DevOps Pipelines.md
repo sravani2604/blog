@@ -23,9 +23,9 @@ That's what this series of posts is all about. ie blog posts on how I created th
 
 [Part I - Installing and Creating a Static Website with Hugo](/blog/part-i-installing-and-creating-a-static-website-with-hugo/)
 
-Part II - Creating a New App Service in Azure
+[Part II - Creating a New App Service in Azure](/blog/part-ii-creating-a-new-app-service-in-azure/)
 
-Part III - Creating a Build With Azure DevOps Pipelines
+[Part III - Creating a Build With Azure DevOps Pipelines](/blog/part-iii-creating-a-build-with-azure-devops-pipelines/)
 
-Part IV - Creating a Release with Azure DevOps Pipelines
+[Part IV - Creating a Release with Azure DevOps Pipelines](/blog/part-iv-creating-a-release-with-azure-devops-pipelines/)
 
