@@ -21,7 +21,7 @@ The only missing part is somewhere to host the site, which can be done very chea
 
 That's what this series of posts is all about. ie blog posts on how I created this blog (very meta hey!)
 
-[Part I - Installing and Creating a Static Website with Hugo](/part-i-installing-and-creating-a-static-website-with-hugo/)
+[Part I - Installing and Creating a Static Website with Hugo](/blog/part-i-installing-and-creating-a-static-website-with-hugo/)
 
 Part II - Creating a New App Service in Azure
 
