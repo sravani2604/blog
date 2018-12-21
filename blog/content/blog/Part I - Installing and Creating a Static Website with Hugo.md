@@ -110,4 +110,4 @@ Now you can browse to http://localhost:1313/ and you will see your newly created
 
 ![Locally Hosted Site](/img/2018/12/Hugo_4.png)
 
-Notice that the 'First Blog Post' appears on the page, even when we marked it as a draft.  This is because we used the '-D' parameter on the Hugo Server command.  This makes it show full posts and drafts.  So see the site for real, just remove this parameter and you will see the site as it would be hosted.
+Notice that the 'First Blog Post' appears on the page, even when we marked it as a draft.  This is because we used the '-D' parameter on the Hugo Server command.  This makes it show full posts and drafts.  So see the site for real, just remove this parameter and you will see the site as it would be hosted. 
