@@ -38,13 +38,13 @@ Now that we have a build configured in Azure DevOps, and it is outputting the fi
 
 ## Configure the Artifact
 
-* To add the artifact to your release (ie the built Hugo site) click on the 'Add an Artifact' box on the left hand site of the the config window.  In there select a source from the drop down, this is the build that you previously configured.
+* To add the artifact to your release (ie the built Hugo site) click on the 'Add an Artifact' box on the left-hand side of the config window.  In there select a source from the drop-down, this is the build that you previously configured.
 
-* Change the 'Default version' selection to latest, because we want this to deploy the version that has just built.
+* Change the 'Default version' selection to the latest, because we want this to deploy the version that has just built.
 
 * Click on 'Add' to save the configuration.
 
-* Finally we need to configure the 'Continuous Deployment Trigger' by clicking on the lightning icon at the top of the artifact item, and enabling it.  The will cause it to trigger the release every time there is a new build.  Save this by closing the box with the X at the top right.
+* Finally, we need to configure the 'Continuous Deployment Trigger' by clicking on the lightning icon at the top of the artifact item and enabling it.  The will cause it to trigger the release every time there is a new build.  Save this by closing the box with the X at the top right.
 
 ![Configuring the release](/img/2018/12/AzureDevOps_Release_03.gif)
 
@@ -53,7 +53,7 @@ Now that we have a build configured in Azure DevOps, and it is outputting the fi
 * Now that you have the artifact configured you need to configure the 'Stages' by clicking on the '1 job, 1 task' link.
 
 * In the 'Stage 1' config select the subscription (you may need to authorise this), then select the 'App service name' as the app service you created previously.
-* There is nothing that you need to coonfigure on the 'Run on agent' stage.
+* There is nothing that you need to configure on the 'Run on agent' stage.
 
 * Click on the 'Deploy Azure App Service' item and scroll down to the 'Package on folder' item.  This should read "$(System.DefaultWorkingDirectory)/_Hugo Blog Demo-CI/drop".  This is the build name with the artifact folder after it.
 

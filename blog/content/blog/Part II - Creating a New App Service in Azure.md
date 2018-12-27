@@ -27,7 +27,7 @@ This is part of a blog series titled "Creating and Deploying a Static Website wi
 
 ---
 
-Once you have a site to created with Hugo, or any other static site generator for that matter, you will need somewhere to host it.  In this post we are going to create a new Azure App Service on the free tier to host the site.
+Once you have a site to created with Hugo, or any other static site generator for that matter, you will need somewhere to host it.  In this post, we are going to create a new Azure App Service on the free tier to host the site.
 
 ## Stage 1 - Create the App Service Plan
 
@@ -47,7 +47,7 @@ Click on 'Dev / Test', select the F1 plan (ie the free one) and click 'Apply'.  
 
 Now that we have the App Service Plan created, we can get to creating the App Service itself.  As before go to the Azure Portal, then All Services and search for 'App Service'.  You will get a few more options this time so click on the one just called 'App Services'.
 
-Click on '+ Add' button and it will take you to the marketplace where you need to select 'Web App' (normally the first one in the list).  On the Web App page that appear, click the 'Create' button at the bottom.
+Click on '+ Add' button and it will take you to the marketplace where you need to select 'Web App' (normally the first one in the list).  On the Web App page that appears, click the 'Create' button at the bottom.
 
 From here you should see the Web App blade that you need to put the details into.
 
@@ -55,7 +55,7 @@ From here you should see the Web App blade that you need to put the details into
 
 Just put in the name and the Resource Group you wish to use and select the App Service you have just created.  All that is left then is to click create.
 
-When the app is created, go back to the App Services blade and you will see the new app in the list.  If you click on the app it will show you the url for your app in the top right.  Click on that an you will get the starter page.
+When the app is created, go back to the App Services blade and you will see the new app in the list.  If you click on the app it will show you the url for your app in the top right.  Click on that and you will get the starter page.
 
 ![App Service Plan Config](/img/2018/12/AppServicePlan_03.png)
 
