@@ -8,7 +8,7 @@ featuredalt = ""
 featuredpath = "date"
 linktitle = "Step by Step Guide to Installing and Configuring Hugo to create your own Static Website"
 title = "Part I - Installing and Creating a Static Website with Hugo"
-tags = ["Hugo, BlogAsCode"]
+tags = ["Hugo", "Blog Series - BlogAsCode"]
 type = "post"
 draft = "true"
 +++ 
