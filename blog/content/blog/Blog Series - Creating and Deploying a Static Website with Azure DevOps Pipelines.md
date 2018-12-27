@@ -1,7 +1,7 @@
 +++
 author = "Matt Browne"
 categories = [""]
-date = "2018-12-17"
+date = "2018-12-27"
 description = "Creating a BlogAsCode with Hugo and Azure DevOps"
 featured = "engine.jpg"
 featuredalt = ""

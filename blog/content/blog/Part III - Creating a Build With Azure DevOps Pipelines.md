@@ -1,7 +1,7 @@
 +++
 author = "Matt Browne"
 categories = [""]
-date = "2018-12-18"
+date = "2018-12-27"
 description = "Step by step run through of how to create a build of the Hugo blog in Azure DevOps from a GitHub Repo"
 featured = "buildit.jpg"
 featuredalt = ""
