@@ -3,7 +3,7 @@ author = "Matt Browne"
 categories = [""]
 date = "2018-12-12"
 description = "Let me convince you to use User Voice more"
-featured = ""
+featured = "finallink.jpg"
 featuredalt = ""
 featuredpath = ""
 linktitle = ""
@@ -27,3 +27,6 @@ Go take a look at https://feedback.azure.com and click on the topics (on the rig
 Once you have added your vote to an issue, take a look through the comments and notes on the topic.  You will often find notes from the product managers and developers about what is going on with the feature.  Sometimes there is a good reason why the suggestion can't be implemented, but they are pretty good at explaining why this is or how it is being fixed somewhere else etc.  Of course, it's not a guarantee that your feature/suggestion will instantly appear in the portal or product, but it's a great way to start the conversation with the people who are building the products.
 
 In short, go to [Azure User Voice](https://feedback.azure.com) and get suggesting (and fixing) the issues and features that matter to you!
+
+___
+*Credit - [Ewan McIntyre Photography](https://www.instagram.com/_ewanmcintyre/?hl=en) for the banner image.*

@@ -2,7 +2,7 @@
 author = "Matt Browne"
 categories = [""]
 date = "2018-12-17"
-description = ""
+description = "Creating a BlogAsCode with Hugo and Azure DevOps"
 featured = "engine.jpg"
 featuredalt = ""
 featuredpath = "date"
@@ -29,3 +29,4 @@ That's what this series of posts is all about. ie blog posts on how I created th
 
 * [Part IV - Creating a Release with Azure DevOps Pipelines](/blog/part-iv-creating-a-release-with-azure-devops-pipelines/)
 
+Now have a ' BlogAsCode' that I can edit and tweak etc, out of Visual Studio Code and/or GitHub.  If you want to add/remove/correct anything in these post, feel free to submit a pull request for the repo on my [GitHub account](https://github.com/MattBrowne1/blog) :)
