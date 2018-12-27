@@ -13,7 +13,7 @@ type = "post"
 draft = "true"
 +++
 
-This blog series all kicked of from a conversation I was having with [Adam Listek](https://twitter.com/alistek) a while back about using a static site generator for creating a blog.  He is a bit of a wizard with these things and put me on to [Hugo](https://gohugo.io/).  From the initial scan it looked like a simple way, once it's setup, to create a static site/blog from a few markdown file.  This got me thinking!
+This blog series all kicked off from a conversation I was having with [Adam Listek](https://twitter.com/alistek) a while back about using a static site generator for creating a blog.  He is a bit of a wizard with these things and put me on to [Hugo](https://gohugo.io/).  From the initial scan, it looked like a simple way, once it's set up, to create a static site/blog from a few markdown files.  This got me thinking!
 
 Hugo just creates the static files for the site, but they are going to need to be hosted somewhere, and Hugo needs to run every time I create a new post.  It started to feel like we needed a pipeline for this.  Enter [Azure DevOps](https://azure.microsoft.com/en-gb/services/devops/)!  This is free for Open Source projects, which is perfect because I was planning to put the 'code' in GitHub anyway.
 
