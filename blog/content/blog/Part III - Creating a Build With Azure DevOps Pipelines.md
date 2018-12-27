@@ -71,7 +71,7 @@ Now we have a build, it just needs some configuration....
 
 * Now you should have two options in the list for Hugo.  Select the top one and click on add.  This should make a new stage appear on the left under the 'Agent Job 1' stage.
 
-* Now we need to fill in a few details for Hugo to understand what it is building.  Use these setting to fill in the blanks:
+* Now we need to fill in a few details for Hugo to understand what it is building.  Use these settings to fill in the blanks:
 
 ```
 # My hugo site is in a subdir called 'blog', you may not need this.
