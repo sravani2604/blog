@@ -18,4 +18,4 @@ The plan is to detail how I have put this blog together with Azure DevOps.  That
 
 So that's it, this is the first post, but hopefully there will be more good stuff to come.  Feel free to contact me via the links on this page.
 
-Watch this space...... XXXX
+Watch this space......
