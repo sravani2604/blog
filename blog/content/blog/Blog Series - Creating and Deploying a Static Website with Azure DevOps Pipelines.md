@@ -10,7 +10,7 @@ linktitle = ""
 title = "Blog Series - Creating and Deploying a Static Website with Azure DevOps Pipelines"
 tags = ["Azure DevOps", "Hugo", "Blog Series - BlogAsCode"]
 type = "post"
-draft = "true"
+draft = "false"
 +++
 
 This blog series all kicked off from a conversation I was having with [Adam Listek](https://twitter.com/alistek) a while back about using a static site generator for creating a blog.  He is a bit of a wizard with these things and put me on to [Hugo](https://gohugo.io/).  From the initial scan, it looked like a simple way, once it's set up, to create a static site/blog from a few markdown files.  This got me thinking!
