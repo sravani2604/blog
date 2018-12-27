@@ -10,7 +10,7 @@ linktitle = "Step by Step Guide to Installing and Configuring Hugo to create you
 title = "Part I - Installing and Creating a Static Website with Hugo"
 tags = ["Hugo", "Blog Series - BlogAsCode"]
 type = "post"
-draft = "true"
+draft = "false"
 +++ 
 
 ---
