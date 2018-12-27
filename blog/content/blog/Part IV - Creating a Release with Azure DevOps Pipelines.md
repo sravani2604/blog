@@ -10,7 +10,7 @@ linktitle = ""
 title = "Part IV - Creating a Release with Azure DevOps Pipelines"
 tags = ["Azure DevOps", "Blog Series - BlogAsCode"]
 type = "post"
-draft = "true"
+draft = "false"
 +++
 
 ---

@@ -10,7 +10,7 @@ linktitle = ""
 title = "Part III - Creating a Build With Azure DevOps Pipelines"
 tags = ["Azure DevOps", "Blog Series - BlogAsCode"]
 type = "post"
-draft = "true"
+draft = "false"
 +++
 
 ---
