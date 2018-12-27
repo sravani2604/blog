@@ -45,10 +45,15 @@ In your new organisation, click on the 'New Project' button, fill in the project
 ## Create a New Build
 
 Now you have everything you need to create your build, go to Pipelines on the left, then click the New Pipeline button.  On the wizard, select the options as follows:
+
 1. Location - Click on the 'Use the Visual Designer' link.
+
 2. Select the Repos that you are using, and the branch it's going to pull from.
+
 3. Template - Select 'Empty Job' at the top of the selection.  We will fill it out later.
+
 4. Save - Click on the 'Save & queue' selection box at the top and select 'Save'.
+
 
 ![App Service Plan Config](/img/2018/12/AzureDevOps_Build_02.gif)
 
