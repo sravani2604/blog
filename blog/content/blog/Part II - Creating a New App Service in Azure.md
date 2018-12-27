@@ -8,7 +8,7 @@ featuredalt = ""
 featuredpath = "date"
 linktitle = ""
 title = "Part II - Creating a Web App in Azure "
-tags = ["Azure App Service"]
+tags = ["Azure App Service, Blog Series - BlogAsCode"]
 type = "post"
 draft = "true"
 +++
