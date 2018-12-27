@@ -10,7 +10,7 @@ linktitle = ""
 title = "Part II - Creating a Web App in Azure "
 tags = ["Azure App Service", "Blog Series - BlogAsCode"]
 type = "post"
-draft = "true"
+draft = "false"
 +++
 
 ---
