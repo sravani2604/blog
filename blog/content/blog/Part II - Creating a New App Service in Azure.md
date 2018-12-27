@@ -27,7 +27,7 @@ This is part of a blog series titled "Creating and Deploying a Static Website wi
 
 ---
 
-Once you have a site to created with Hugo, or any other static site generator for that matter, you will need somewhere to host it.  In this post, we are going to create a new Azure App Service on the free tier to host the site.
+Once you have a site created with Hugo, or any other static site generator for that matter, you will need somewhere to host it.  In this post, we are going to create a new Azure App Service on the free tier to host the site.
 
 ## Stage 1 - Create the App Service Plan
 
@@ -57,7 +57,7 @@ Just put in the name and the Resource Group you wish to use and select the App S
 
 When the app is created, go back to the App Services blade and you will see the new app in the list.  If you click on the app it will show you the url for your app in the top right.  Click on that and you will get the starter page.
 
-![App Service Plan Config](/img/2018/12/AppServicePlan_03.png)
+![App Service Plan Config](/img/2018/12/AppServicePlan_04.png)
 
 
 ## Also.....
