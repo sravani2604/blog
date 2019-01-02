@@ -3,12 +3,12 @@ author = "Matt Browne"
 categories = [""]
 tags = ["none"]
 date = "2018-12-11"
-description = "Every blog needs a first post right! :+1:"
+description = "Every blog needs a first post right!"
 featured = "pipes.jpeg"
 featuredalt = "Pic 3"
 featuredpath = "date"
 linktitle = ""
-title = "First Post :+1:"
+title = "First Post"
 type = "post"
 +++
 
