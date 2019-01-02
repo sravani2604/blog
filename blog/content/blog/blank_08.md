@@ -7,11 +7,13 @@ featured = "pipes.jpeg"
 featuredalt = ""
 featuredpath = "date"
 linktitle = ""
-title = ""
+title = "2019 - The year of giving back!"
 tags = [""]
 type = "post"
 draft = "true"
 +++
+
+
 
 
 
