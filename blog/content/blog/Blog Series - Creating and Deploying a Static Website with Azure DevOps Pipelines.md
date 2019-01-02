@@ -2,7 +2,7 @@
 author = "Matt Browne"
 categories = [""]
 date = "2018-12-17"
-description = "Creating a BlogAsCode with Hugo and Azure DevOps"
+description = "Creating a Blog-as-Code with Hugo and Azure DevOps"
 featured = "engine.jpg"
 featuredalt = ""
 featuredpath = "date"
