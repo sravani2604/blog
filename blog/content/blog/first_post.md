@@ -8,7 +8,7 @@ featured = "pipes.jpeg"
 featuredalt = "Pic 3"
 featuredpath = "date"
 linktitle = ""
-title = "First Post"
+title = "First Post :+1:"
 type = "post"
 +++
 
