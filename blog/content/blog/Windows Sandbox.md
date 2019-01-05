@@ -19,7 +19,7 @@ draft = "true"
 
 Windows Sandbox is a lot like running a virtual machine in Windows 10 in some ways but not in others.  When you spin it up, ie click on the icon, a window opens with a vanilla version of Win10 running.  It's using the Windows Container technology to run the OS, so it's using the files on the machine to run but it can't change them at all.  Therefore it's got all the features of your machine but it can't break anything outside of it's own little 'sandbox'.  It's not going to be as fast or as feature rich as a full VM, but as a temporary space to test/break/prove something, its perfect.  And it does all of this in about 100mb of disk space.
 
-![Initial view](/img/2019/01/WindowsSandbox_02.jpg)
+![Initial view](/img/2019/01/WindowsSandbox_01.jpg)
 
 However, **nothing survives a restart**.  This is where it starts to feel different from running a VM.  It's designed as something you can use to blow things up and test, not as a tool to run things in the long term (or even medium term).  Therefore get yourself some good automation scripts for installing the software you need before testing, this will save you a whole load of time.
 
