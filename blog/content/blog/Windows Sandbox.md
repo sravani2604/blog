@@ -50,7 +50,9 @@ It's not fast.  I'm not saying it's annoyingly slow or unusable but it's just no
 
 ## How do I get Windows Sandbox
 
-On your Windows 10 machine go to *Settings -> Apps -> Apps & Features -> Programs and Features -> Turn Windows Features on or off.*  Scroll to the bottom of the list and you should see Windows Sandbox in the list, tick this and go to OK.
+On your Windows 10 machine go to *Settings -> Apps -> Apps & Features -> Programs and Features -> Turn Windows Features on or off.*  Scroll to the bottom of the list and you should see Windows Sandbox in the list, tick this and go to OK.  That will add the new feature, but it may ask you for a restart.
+
+Of course we can do this with PowerShell:
 
 ```PowerShell
 # You will need the RSAT tools installed on your machine for this 
