@@ -8,7 +8,7 @@ featuredalt = ""
 featuredpath = "date"
 linktitle = ""
 title = "What is Windows Sandbox"
-tags = [""]
+tags = ["windows sandbox"]
 type = "post"
 draft = "false"
 +++
