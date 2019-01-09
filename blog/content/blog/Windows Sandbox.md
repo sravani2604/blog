@@ -13,6 +13,8 @@ type = "post"
 draft = "false"
 +++
 
+---
+
 *Note - If you just want to know how to get Sandbox, skip to the second half of the post.*
 
 ## What is Windows Sandbox
