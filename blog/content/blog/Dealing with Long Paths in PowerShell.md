@@ -23,15 +23,13 @@ Get-Childitem -path “\\server\sharename” -recurse
 
 Ah ok, so this share has some really long paths.  This causes a lot of errors if the paths are over 260 characters, which is gong to be pretty normal on a lot of file servers.  No problem though because we can use the Unicode version of the path….
 
- 
-
 To use the Unicode version of the path we need to replace the double slash at the beginning of the UNC path with ‘\\?\UNC\’
 
  
-So \\server\sharename bcomes -> \\?\UNC\server\sharename
+So \\server\sharename becomes -> \\?\UNC\server\sharename
  
 
-If we want to use this with the get-childitem cmdlet, we are going to need to use the -literalpath variable so that non of the characters are interpreted as wildcards or special character.  Ie it take the path exactly as it is specified.  So, our command now becomes :
+If we want to use this with the get-childitem cmdlet, we are going to need to use the -literalpath variable so that non of the characters are interpreted as wildcards or special character.  I.e. it take the path exactly as it is specified.  So, our command now becomes :
 
 ```PowerShell
 Get-Childitem -literalpath "\\?\UNC\server\sharename" -recurse
