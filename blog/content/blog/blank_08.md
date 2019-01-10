@@ -1,13 +1,13 @@
 +++
 author = "Matt Browne"
 categories = [""]
-date = ""
+date = "2019-01-10"
 description = ""
 featured = "pipes.jpeg"
 featuredalt = ""
 featuredpath = "date"
 linktitle = ""
-title = "2019 - The year of giving back!"
+title = "Dealing with Long Paths in PowerShell"
 tags = [""]
 type = "post"
 draft = "true"
