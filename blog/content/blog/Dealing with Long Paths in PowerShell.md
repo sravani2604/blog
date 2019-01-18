@@ -50,7 +50,7 @@ So now we have this :
 ```PowerShell
 $share -replace [regex]::escape("\\"), "\\?\UNC\"
 ```
-![Long File Paths](/img/2019/01/LonFilePaths01.png)
+![Long File Paths](/img/2019/01/LonFilePaths02.png)
 
 Bingo!  That looks perfect.
 
