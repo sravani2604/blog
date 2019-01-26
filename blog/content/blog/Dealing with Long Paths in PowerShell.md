@@ -17,6 +17,10 @@ draft = "true"
 
 *Me : Sure that’s super easy.*
 
+Often these simple conversations seems like they should take 2 minutes of our time but the reality is that there is often something that catches us out.  We've all been there right!  This is a simple example of that, but once we know the issues there are a few simple fixes that get us to the goal without too much of a drama.
+
+This is where we start the journey
+
 ```PowerShell
 Get-Childitem -path "\\server\sharename" -recurse
 ```
@@ -26,10 +30,12 @@ Ah ok, so this share has some really long paths.  This causes a lot of errors if
 To use the Unicode version of the path we need to replace the double slash at the beginning of the UNC path with ‘\\?\UNC\’
 
  
-So \\server\sharename becomes -> \\?\UNC\server\sharename
- 
+So 
+```
+\\server\sharename becomes -> \\?\UNC\server\sharename
+``` 
 
-If we want to use this with the get-childitem cmdlet, we are going to need to use the -literalpath variable so that non of the characters are interpreted as wildcards or special characters.  I.e. it takes the path exactly as it is specified.  So, our command now becomes :
+If we want to use this with the Get-ChildItem cmdlet, we are going to need to use the -literalpath variable so that none of the characters aren't interpreted as wildcards or special characters.  I.e. it takes the path exactly as it is specified.  So, our command now becomes :
 
 ```PowerShell
 Get-Childitem -literalpath "\\?\UNC\server\sharename" -recurse
@@ -55,7 +61,6 @@ $share -replace [regex]::escape("\\"), "\\?\UNC\"
 Bingo!  That looks perfect.
 
 Now we have everything put together, we can create a simple function that will take in the UNC path and output the list of files just like the boss asked.
-
  
 
 ```PowerShell
