@@ -8,7 +8,7 @@ featuredalt = ""
 featuredpath = "date"
 linktitle = ""
 title = "Dealing with Long Paths in PowerShell"
-tags = [""]
+tags = ["PowerShell, Get-Childitem"]
 type = "post"
 draft = "true"
 +++
