@@ -1,7 +1,7 @@
 +++
 author = "Matt Browne"
 categories = [""]
-date = "2019-01-10"
+date = "2019-01-26"
 description = ""
 featured = "keyboard.jpg"
 featuredalt = ""
@@ -10,7 +10,7 @@ linktitle = ""
 title = "Dealing with Long Paths in PowerShell"
 tags = ["PowerShell, Get-Childitem"]
 type = "post"
-draft = "true"
+draft = "false"
 +++
 
 *Boss : Can you get me a list of all the files on these shares?*
