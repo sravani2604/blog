@@ -50,7 +50,7 @@ Install-Module AzureAD
 
  
 
-## Setting up the Credentails to use
+## Setting up the Credentials to use
 
  
 
@@ -76,7 +76,7 @@ This will create the file we need to reference in the script.  This file will on
 
  
 
-Now that we have the credentails in a file, we need to go through the Auth_From_File.ps1 script and change the $User and $Password variables to reference the account we are using, and the password file we just created.
+Now that we have the credentials in a file, we need to go through the Auth_From_File.ps1 script and change the $User and $Password variables to reference the account we are using, and the password file we just created.
 
  
 
@@ -138,7 +138,7 @@ https://graph.microsoft.com/beta/{resource}?[query_parameters]
 
  
 
-So if we want to query all the users that have a givenName starting with M then we can do this for eaxmple:
+So if we want to query all the users that have a givenName starting with M then we can do this for example:
 
  
 
@@ -150,7 +150,7 @@ To get more detail on the filters, refer to the documentation mentioned above.
 
  
 
-For testing on the queries go over to Graph Explorer (https://developer.microsoft.com/en-us/graph/graph-explorer).  This gives us a page to enter the queries and will show the results that it returns.  This can be invalueable when test etc.
+For testing on the queries go over to Graph Explorer (https://developer.microsoft.com/en-us/graph/graph-explorer).  This gives us a page to enter the queries and will show the results that it returns.  This can be invaluable when test etc.
 
  
 
