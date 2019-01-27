@@ -34,11 +34,11 @@ https://github.com/microsoftgraph/powershell-intune-samples/blob/master/Authenti
 
  
 
-This script will allow us to store credentails in a local file and get an authorisation token for running queries.
+This script will allow us to store credentials in a local file and get an authorisation token for running queries.
 
  
 
-Hoever, the script requires that you have the AzureAD powershell module installed.  If you don't already have this installed, you can run:
+However, the script requires that you have the AzureAD PowerShell module installed.  If you don't already have this installed, you can run:
 
  
 
@@ -81,6 +81,8 @@ Now that we have the credentials in a file, we need to go through the Auth_From_
  
 
 If we run the ps1 file we will have a token in the $authToken variable that we can use for connecting to the GraphAPI.  It should look something like this:
+
+![Graph Explorer](/img/2019/01/GraphExplorer03.jpg)
 
  
 
@@ -153,7 +155,7 @@ To get more detail on the filters, refer to the documentation mentioned above.
 For testing on the queries go over to Graph Explorer (https://developer.microsoft.com/en-us/graph/graph-explorer).  This gives us a page to enter the queries and will show the results that it returns.  This can be invaluable when test etc.
 
  
-
+![Graph Explorer](/img/2019/01/GraphExplorer01.jpg)
  
 
  
