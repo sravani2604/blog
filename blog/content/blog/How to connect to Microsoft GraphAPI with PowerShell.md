@@ -3,12 +3,12 @@ author = "Matt Browne"
 categories = [""]
 date = ""
 description = "Using a credentials file to connect to the GraphAPI"
-featured = "pipes.jpeg"
+featured = "Circuit.jpeg"
 featuredalt = ""
 featuredpath = "date"
 linktitle = ""
 title = "How to connect to Microsoft GraphAPI with PowerShell"
-tags = [""]
+tags = ["PowerShell, GraphAPI"]
 type = "post"
 draft = "true"
 +++
