@@ -1,7 +1,7 @@
 +++
 author = "Matt Browne"
 categories = [""]
-date = ""
+date = "2019-01-27"
 description = "Using a credentials file to connect to the GraphAPI"
 featured = "Circuit.jpeg"
 featuredalt = ""
