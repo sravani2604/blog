@@ -71,3 +71,4 @@ function Get-ListOfFiles ($path) {
 ```
 
 
+(Edit) Side note - See [@RSiddaway's](https://twitter.com/rsiddaway) [latest blog](https://richardspowershellblog.wordpress.com/2019/01/25/ntfssecurity-module/) about the NTFSsecurity module on github that deals with long file paths.
