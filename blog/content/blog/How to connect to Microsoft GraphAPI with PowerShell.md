@@ -87,10 +87,10 @@ Next, we need to create an HTTP string to query the GraphAPI for the details we 
 GET https://graph.microsoft.com/v1.0/users
 
 ```
-This is a fairly crude query but it will give us an idea of the results we will get from one of these queries.  Also it shows that we need to think about filtering our queries because a simple query like this can produce a LOT of results if you have a big environment.
+This is a fairly crude query but it will give us an idea of the results we will get from one of these queries.  Also, it shows that we need to think about filtering our queries because a simple query like this can produce a LOT of results if you have a big environment.
  
 
-When you need to build you own query, a good place to start is the Graph REST API v1.0 reference page on Microsoft Docs:
+When you need to build your own query, a good place to start is the Graph REST API v1.0 reference page on Microsoft Docs:
 
 https://docs.microsoft.com/en-us/graph/api/overview?view=graph-rest-1.0
 
