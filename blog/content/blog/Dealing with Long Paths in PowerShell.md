@@ -46,7 +46,7 @@ Great, so now we can put the UNC path the boss has given us and just use ‘-rep
 ``` PowerShell
 $share -replace "\\", "\\?\UNC\"
 ```
-![Long File Paths](/img/2019/01/LonFilePaths01.png)
+![Broken file paths](/img/2019/01/LonFilePaths01.png "Broken file paths after ther replace")
  
 
 OK, so that hasn’t gone well.  That UNC path is very broken now!  This is because it’s interpreting the slashes as escape characters.  Luckily we can get around this by using the [regex]::escape method.  This will make the command interpret all the characters exactly as they are and not see them as escape characters.
@@ -56,7 +56,7 @@ So now we have this :
 ```PowerShell
 $share -replace [regex]::escape("\\"), "\\?\UNC\"
 ```
-![Long File Paths](/img/2019/01/LonFilePaths02.png)
+![Long File Paths](/img/2019/01/LonFilePaths02.png "Woking paths after the replace")
 
 Bingo!  That looks perfect.
 
