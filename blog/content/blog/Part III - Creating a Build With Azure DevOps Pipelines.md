@@ -39,7 +39,7 @@ Firstly you are going to need the following two items:
 
 In your new organisation, click on the 'New Project' button, fill in the project name, set it as Public and click Create.
 
-![App Service Plan Config](/img/2018/12/AzureDevOps_Build_01.png)
+![App Service Plan Config](/img/2018/12/AzureDevOps_Build_01.png "App Service Plan Config")
 
 
 ## Create a New Build
@@ -55,7 +55,7 @@ Now you have everything you need to create your build, go to Pipelines on the le
 4. Save - Click on the 'Save & queue' selection box at the top and select 'Save'.
 
 
-![App Service Plan Config](/img/2018/12/AzureDevOps_Build_02.gif)
+![App Service Plan Config](/img/2018/12/AzureDevOps_Build_02.gif "App Service Plan Config")
 
 ## Configure the New Build
 

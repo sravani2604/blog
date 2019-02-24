@@ -56,7 +56,7 @@ hugo new site blog
 
 This should produce a directory structure that looks like this:
 
-![Base directory structure](/img/2018/12/Hugo_2.png)
+![Base directory structure](/img/2018/12/Hugo_2.png "Base directory structure")
 
 
 ## Adding a Theme to your Site
@@ -96,7 +96,7 @@ This will create a single markdown file in the /content/blog directory.  You can
 The last thing we need to do is build the site and take a look at what it outputs for us.  To do this, just type 'Hugo' into the command line at the root of the blog.  Hugo will now use the post markdown file, and the template to build the site.  We should get an output something like this:
 
 
-![Building the site](/img/2018/12/Hugo_3.png)
+![Building the site](/img/2018/12/Hugo_3.png "Building the site")
 
 Once this is complete, it normally takes a few milliseconds, you should have a bunch of files in the 'C:\Hugo\blog\public' directory.  This is our static site which can be copied to a web server or web host to serve.  It's as simple as that ;)
 
@@ -108,6 +108,6 @@ hugo server -D
 ```
 Now you can browse to http://localhost:1313/ and you will see your newly created site, complete with the new post that you created.
 
-![Locally Hosted Site](/img/2018/12/Hugo_4.png)
+![Locally Hosted Site](/img/2018/12/Hugo_4.png "Locally Hosted Site")
 
 Notice that the 'First Blog Post' appears on the page, even when we marked it as a draft.  This is because we used the '-D' parameter on the Hugo Server command.  This makes it show full posts and drafts.  To see the site for real, just remove this parameter and you will see the site as it would be hosted. 

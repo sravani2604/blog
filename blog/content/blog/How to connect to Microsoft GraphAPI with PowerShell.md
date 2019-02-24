@@ -75,7 +75,7 @@ Now that we have the credentials in a file, we need to go through the Auth_From_
 
 If we run the ps1 file we will have a token in the $authToken variable that we can use for connecting to the GraphAPI.  It should look something like this:
 
-![Graph Explorer](/img/2019/01/GraphExplorer03.jpg)
+![Graph Explorer](/img/2019/01/GraphExplorer03.jpg "Boom! We have an auth token for the GraphApi)
 
  
 
@@ -139,7 +139,7 @@ To get more detail on the filters, refer to the documentation mentioned above.
 For testing on the queries go over to Graph Explorer (https://developer.microsoft.com/en-us/graph/graph-explorer).  This gives us a page to enter the queries and will show the results that it returns.  This can be invaluable when testing etc.  Just build up your query from the documentation and put it in here and we can tell if we have got the format right before committing it to code etc.  This can be a quick easy way of running a query if you are doing a one off etc.
 
  
-![Graph Explorer](/img/2019/01/GraphExplorer01.jpg)
+![Graph Explorer](/img/2019/01/GraphExplorer01.jpg "Graph Explorer")
  
 So, that's it.  You now have the script and credentials to query the GraphAPI with PowerShell, and nothing is stopping you from scheduling this script to produce reports or notification etc.  
  

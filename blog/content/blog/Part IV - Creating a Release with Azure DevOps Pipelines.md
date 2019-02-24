@@ -34,7 +34,7 @@ Now that we have a build configured in Azure DevOps, and it is outputting the fi
 
 * You will be asked to select a template for the release.  Just click on 'Azure App Service deployment' and click 'Apply'.  Leave the name as 'Stage 1' and close the 'Stage' box.
 
-![Configuring the release](/img/2018/12/AzureDevOps_Release_01.gif)
+![Configuring the release](/img/2018/12/AzureDevOps_Release_01.gif "Configuring the release")
 
 ## Configure the Artifact
 
@@ -46,7 +46,7 @@ Now that we have a build configured in Azure DevOps, and it is outputting the fi
 
 * Finally, we need to configure the 'Continuous Deployment Trigger' by clicking on the lightning icon at the top of the artifact item and enabling it.  The will cause it to trigger the release every time there is a new build.  Save this by closing the box with the X at the top right.
 
-![Configuring the release](/img/2018/12/AzureDevOps_Release_03.gif)
+![Configuring the release](/img/2018/12/AzureDevOps_Release_03.gif "Configuring the release")
 
 ## Configure the Stages
 
@@ -59,7 +59,7 @@ Now that we have a build configured in Azure DevOps, and it is outputting the fi
 
 * Now you are done, so click on 'Save' towards the top.
 
-![Configuring the release](/img/2018/12/AzureDevOps_Release_04.gif)
+![Configuring the release](/img/2018/12/AzureDevOps_Release_04.gif "Configuring the release")
 
 ## Testing it all Works
 
@@ -67,8 +67,8 @@ To test that it all works you just need to trigger a build and it will all autom
 
 We do this by going to 'Pipelines', 'Builds' and click the 'Queue' button on the top right of the page.  This will create a new item in the list that you can click on and follow the progress through.  Once the build is done click on the release and you can follow that through also.
 
-![Configuring the release](/img/2018/12/AzureDevOps_Release_05.gif)
+![Configuring the release](/img/2018/12/AzureDevOps_Release_05.gif "Watching the release run")
 
 Now we have a shiny new website deployed to the Azure Web App
 
-![Configuring the release](/img/2018/12/AzureDevOps_Release_06.png)
+![Configuring the release](/img/2018/12/AzureDevOps_Release_06.png "The final product")
