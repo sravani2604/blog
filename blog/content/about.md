@@ -1,6 +1,6 @@
 +++
 title = "about"
-description = "about this site"
+description = "What is this blog about and why is here?"
 date = "2014-09-27"
 slug = "about"
 +++

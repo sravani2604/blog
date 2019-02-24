@@ -35,11 +35,11 @@ Before we create an App Service, we are going to need an App Service Plan to put
 
 In the Azure Portal, click on 'All Services' at the top left of the page and search for 'App Service Plan'.  Click on the only item that appears and click the '+ Add' button to start creating the plan
 
-![App Service Plan Config](/img/2018/12/AppServicePlan_01.png)
+![App Service Plan Config](/img/2018/12/AppServicePlan_01.png "App Service Plan Config")
 
 Add the details like the name and resource group you want it in, and at the bottom of the blade notice that it defaults to the 'S1 Standard' pricing tier.  Click on this as we are going to need to change it to the free version for this demo.
 
-![App Service Plan Config](/img/2018/12/AppServicePlan_02.png)
+![App Service Plan Config](/img/2018/12/AppServicePlan_02.png "App Service Plan Config")
 
 Click on 'Dev / Test', select the F1 plan (ie the free one) and click 'Apply'.  Once you are back at the blade with all the details click 'Create' and you new App Service Plan will start creating.  It only takes a few seconds normally.
 
@@ -51,13 +51,13 @@ Click on '+ Add' button and it will take you to the marketplace where you need t
 
 From here you should see the Web App blade that you need to put the details into.
 
-![App Service Plan Config](/img/2018/12/AppServicePlan_03.png)
+![App Service Plan Config](/img/2018/12/AppServicePlan_03.png "App Service Plan Config")
 
 Just put in the name and the Resource Group you wish to use and select the App Service you have just created.  All that is left then is to click create.
 
 When the app is created, go back to the App Services blade and you will see the new app in the list.  If you click on the app it will show you the url for your app in the top right.  Click on that and you will get the starter page.
 
-![App Service Plan Config](/img/2018/12/AppServicePlan_04.png)
+![App Service Plan Config](/img/2018/12/AppServicePlan_04.png "App Service Plan Config")
 
 
 ## Also.....
