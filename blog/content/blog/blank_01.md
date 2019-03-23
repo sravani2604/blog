@@ -1,5 +1,5 @@
 +++
-author = "Matt Browne @MattBrowne"
+author = "Matt Browne"
 categories = [""]
 date = ""
 description = ""
