@@ -58,19 +58,15 @@ Get-AzResource -Tag @{}
 Get-AzResource -TagName Blog
 ```
 
-
-
-## Sub-Section 1
-
-[I'm an inline-style link with title - Markdown cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet "Google's Homepage")
-
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Image")
-
-
+This will add resources to a resource @@@@@
 ```PowerShell
-#A PowerSHell code block
-Get-Service
-Get-AzureRMVM
+Get-AzResource -Name dc01 | Set-AzResource -Tag @{Test="001"} -Force
 ```
 
-# Link to the 
+This will add tags to a resource @@@@
+```Powershell
+$resource = Get-AzResource -Name dc01
+$resource.Tags.add("CostCode","ABC123") 
+Get-AzResource -Name DC01 | Set-AzResource -Tags $resource.Tags  
+```
+
