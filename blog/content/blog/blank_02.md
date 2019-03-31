@@ -28,7 +28,7 @@ Download and Install Docker CE.  You will need to sign up for a Docker account a
 
 Once it's installed we have docker installed we need to switch it over to using Windows Containers (it will default to Linux containers).  This can be done by right clicking on the Docker icon on the taskbar and selecting "Switch to Windows Containers"
 
-![Switching to Windows COntainers](/img/2019/03/windowsContainers01.jpg "Swiching to Windows Containers")
+![Switching to Windows Containers](/img/2019/03/windowsContainers01.jpg "Swiching to Windows Containers")
 
 # Creating the first Windows Container
 
@@ -38,6 +38,8 @@ Now that we have the Docker installed and running we need to get a container to 
 docker pull mcr.microsoft.com/windows/nanoserver
 ```
 This will pull the latest version of the Windows Nano Server from Microsoft.
+
+![Downloading Windows Container](/img/2019/03/windowsContainers02.jpg "Downloading Windows Container")
 
 Once this is finished you should get
 
