@@ -41,7 +41,17 @@ This will pull the latest version of the Windows Nano Server from Microsoft.
 
 ![Downloading Windows Container](/img/2019/03/windowsContainers02.jpg "Downloading Windows Container")
 
-Once this is finished you should get
+Once this is finished you will have a Windows Nano Server container ready to go.  You can see all the docker containers you have on the system using *'docker images'*...
+
+![First Windows Container](/img/2019/03/windowsContainers03.jpg "Nano Server Container")
+
+Now all we need to do is run up the container and get it to run PowerShell within it.  We do this using 'docker run' like this....
+
+```PowerShell
+docker run -it mcr.microsoft.com/windows/nanoserver powershell.exe 
+```
+
+
 
 
 
