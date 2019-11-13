@@ -54,7 +54,7 @@ Get-AzResource -Tag @{Blog="Dev"}
 # List resources with NO tag assigned
 Get-AzResource -Tag @{}
 
-# Get all resoures with a specifi tag name (with any value)
+# Get all resoures with a specific tag name (with any value)
 Get-AzResource -TagName Blog
 ```
 
