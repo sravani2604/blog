@@ -7,8 +7,8 @@ featured = "pipes.jpeg"
 featuredalt = ""
 featuredpath = "date"
 linktitle = ""
-title = ""
-tags = [""]
+title = "Sending Microsoft Teams Messages with PowerShell"
+tags = ["Teams, PowerShell, Automation"]
 type = "post"
 draft = "true"
 +++
