@@ -26,7 +26,7 @@ One of the simplest ways to use Azure Tags is simply for searching, much like yo
 
 ![Filtering by Tags](/img/2019/03/Tags02.jpg "We can filter All Resources using Tags")
 
-In this example I can use the tags to see all the resources associated with my blog.  So this could be the Azure SQL DB and the App Service etc.  It doesn't have to be tied to the same Resource Group or object either.
+In this example we can use the tags to see all the resources associated with my blog.  So this could be the Azure SQL DB and the App Service etc.  It doesn't have to be tied to the same Resource Group or object either.
 
 # Cost Management using Tags
 
