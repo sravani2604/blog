@@ -32,7 +32,7 @@ In this example we can use the tags to see all the resources associated with my 
 
 Tags come in handy when we are looking at the bill too.  Once you have tagged your resources, go to "View my Bill" and click on "Cost Analysis".  This will show you the total cost and some nice doughnut charts for Resource Group costs etc.  On the top of the page there is a "Group by" filter where you can select Tags.
 
-![Sorting the Bill by Tags](/img/2019/03/Tags02.jpg "We can filter the bill using Tags too!")
+![Sorting the Bill by Tags](/img/2019/03/Tags03.jpg "We can filter the bill using Tags too!")
 
 This information doesn't appear straight away.  It can take a few days to filter through, but once the tags is setup, you don't have to touch it until you add more resources.
 
