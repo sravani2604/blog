@@ -2,7 +2,7 @@
 author = "Matt Browne"
 categories = [""]
 date = "2019-03-27"
-description = "How and why we use Tags in Azure, why they are so useful"
+description = "How and why we use Azure Tags, why they are so useful"
 featured = "pipes.jpeg"
 featuredalt = ""
 featuredpath = "date"
