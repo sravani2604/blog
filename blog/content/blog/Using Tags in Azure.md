@@ -34,7 +34,7 @@ Tags come in handy when we are looking at the bill too.  Once you have tagged yo
 
 ![Sorting the Bill by Tags](/img/2019/03/Tags03.jpg "We can filter the bill using Tags too!")
 
-This information doesn't appear straight away.  It can take a few days to filter through, but once the tags is setup, you don't have to touch it until you add more resources.
+This information doesn't appear straight away.  It can take a few days to filter through, but once the tag is setup, you don't have to touch it until you add more resources.
 
 *Side Note* - I hadn't realised how cheap my blog was.  Feel free to link to it to make it more expensive ;)
 
@@ -58,12 +58,12 @@ Get-AzResource -Tag @{}
 Get-AzResource -TagName Blog
 ```
 
-This will add resources to a resource @@@@@
+This will add a tag to a resource.  However it will over write an tags that are already applied.
 ```PowerShell
 Get-AzResource -Name dc01 | Set-AzResource -Tag @{Test="001"} -Force
 ```
 
-This will add tags to a resource @@@@
+If we want to add tags to the resource, and preserve the existing tags, then try.....
 ```Powershell
 $resource = Get-AzResource -Name dc01
 $resource.Tags.add("CostCode","ABC123") 
