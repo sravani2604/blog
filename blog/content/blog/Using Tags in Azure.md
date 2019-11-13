@@ -8,7 +8,7 @@ featuredalt = ""
 featuredpath = "date"
 linktitle = "Using Tags in Azure"
 title = "Using Tags in Azure"
-tags = [""]
+tags = ["Tags, Azure, Cost Management"]
 type = "post"
 draft = "true"
 +++
@@ -70,3 +70,11 @@ $resource.Tags.add("CostCode","ABC123")
 Get-AzResource -Name DC01 | Set-AzResource -Tags $resource.Tags  
 ```
 
+# Tag Limits
+
+One thing to be aware of, is the limits on tags.  You are limited by things like the number of tags per resource, or the length of tags.
+
+- 50 = Max number of tags per resource 
+- 512 = Max characters for the tag name (128 for strage accounts)
+- 256 = Max characters for the tag value (256 for storage accounts)
+- Not all resource support tags!  Most do though.  See [HERE](https://docs.microsoft.com/en-us/azure/azure-resource-manager/tag-support) for the Microsoft doc listing which ones do/dont
