@@ -18,11 +18,11 @@ Tags are a really simple feature in Azure and if you've spent any time in the po
 
 ![Tags in the Azure Console](/img/2019/03/Tags01.jpg "What tags look like in the console")
 
-These tags free form, so you can add just about anything you like (within limits), and if a tag doesn't already exist you can just type away and save the new tag.
+These tags are free form, so you can add just about anything you like (within limits), and if a tag doesn't already exist you can just type away and save the new tag.
 
 # Searching and Filtering using Tags
 
-One of the simplest ways to use Azure Tags is simply for searching for objects, much like you would use Resource Groups to group things together, but this can span many groups or environments etc.  To demonstrate this, give something a tag and go to "All Resources" in the Portal.  Click on the "Edit columns" button at the top of the resources and add the 'Tags' column.  
+One of the simplest ways to use Azure Tags is simply for searching, much like you would use Resource Groups to group things together, but this can span many groups or environments etc.  To demonstrate this, give something a tag and go to "All Resources" in the Portal.  Click on the "Edit columns" button at the top of the resources and add the 'Tags' column.  
 
 ![Filtering by Tags](/img/2019/03/Tags02.jpg "We can filter All Resources using Tags")
 
