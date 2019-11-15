@@ -14,7 +14,7 @@ draft = "true"
 +++
 
 
-Tags are a really simple feature in Azure, and are amazingingly useful. If you've spent any time in the portal then you will probably have noticed them.  They are essential a set of key value pairs that are assigned to the machine to 'tag' them in some way.
+Tags are a simple feature in Azure and are amazingly useful. If you've spent any time in the portal then you will probably have noticed them.  They are essentially a set of key-value pairs that we assign to a resource to 'tag' them in some way.
 
 ![Tags in the Azure Console](/img/2019/03/Tags01.jpg "What tags look like in the console")
 
@@ -22,19 +22,19 @@ These tags are free form text, so you can add just about anything you like (with
 
 # Searching and Filtering using Tags
 
-One of the simplest ways to use Azure Tags is for searching. Much like you use Resource Groups to group things together, but tags can span many groups or environments etc.  To demonstrate this, give something a tag and go to "All Resources" in the Portal.  Click on the "Edit columns" button at the top of the resources and add the 'Tags' column.  
+One of the simplest ways to use Azure Tags is for searching. Much like you use Resource Groups to group things together. Tags can span many groups or environments etc.  To demonstrate this, give something a tag and go to "All Resources" in the Portal.  Click on the "Edit columns" button at the top of the resources and add the 'Tags' column.  
 
 ![Filtering by Tags](/img/2019/03/Tags02.jpg "We can filter All Resources using Tags")
 
-In this example we can use the tags to see all the resources associated with my blog.  This could be the Azure SQL DB and the App Service etc.  It doesn't have to be tied to the same Resource Group or object either.
+In this example, we can use the tags to see all the resources associated with my blog.  This could be the Azure SQL DB and the App Service etc.  It doesn't have to be tied to the same Resource Group or object either.
 
 # Cost Management using Tags
 
-Tags come in handy when we are looking at the bill too.  Once you have tagged your resources, go to "View my Bill" and click on "Cost Analysis".  This will show you the total cost and some nice doughnut charts for Resource Group costs etc.  On the top of the page there is a "Group by" filter where you can select Tags.
+Tags come in handy when we are looking at the bill too.  Once you have tagged your resources, go to "View my Bill" and click on "Cost Analysis".  This will show you the total cost and some nice doughnut charts for Resource Group costs etc.  At the top of the page there is a "Group by" filter where you can select Tags.
 
 ![Sorting the Bill by Tags](/img/2019/03/Tags03.jpg "We can filter the bill using Tags too!")
 
-This information doesn't appear straight away.  It can take a few days to filter through, but once the tag is setup, you don't have to touch it until you add more resources.
+This information doesn't appear straight away.  It can take a few days to filter through, but once the tag is set up, you don't have to touch it until you add more resources.
 
 *Side Note* - I hadn't realised how cheap my blog was.  Feel free to link to it to make it more expensive ;)
 
@@ -58,12 +58,12 @@ Get-AzResource -Tag @{}
 Get-AzResource -TagName Blog
 ```
 
-This will add a tag to a resource.  However it will over write an tags that are already applied.
+This will add a tag to a resource.  However, it will over write any tags that are already applied.
 ```PowerShell
 Get-AzResource -Name dc01 | Set-AzResource -Tag @{Test="001"} -Force
 ```
 
-If we want to add tags to the resource, and preserve the existing tags, then try.....
+If we want to add tags to the resource and preserve the existing tags, then try.....
 ```Powershell
 $resource = Get-AzResource -Name dc01
 $resource.Tags.add("CostCode","ABC123") 
@@ -81,5 +81,5 @@ One thing to be aware of, is the limits on tags.  You are limited by things like
 - Avoid special character.  Stick to simple alphanumerics.
 
 # Summary
-Tags are simple but really usefull.  It's worth tagging everything you create with a something.  Even if you change this in the future, you will be able to identify and bill the items easier.
+Tags are simple but useful.  It's worth tagging everything you create with at least one tag.  Even if you change this in the future, you will be able to identify and bill the items easier.
 
