@@ -77,4 +77,9 @@ One thing to be aware of, is the limits on tags.  You are limited by things like
 - 50 = Max number of tags per resource 
 - 512 = Max characters for the tag name (128 for strage accounts)
 - 256 = Max characters for the tag value (256 for storage accounts)
-- Not all resources support tags!  Most do though.  See [HERE](https://docs.microsoft.com/en-us/azure/azure-resource-manager/tag-support) for the Microsoft doc listing which ones do/dont
+- Not all resources support tags!  Most do though.  See [HERE](https://docs.microsoft.com/en-us/azure/azure-resource-manager/tag-support) for the Microsoft doc listing which ones do/don't.
+- Avoid special character.  Stick to simple alphanumerics.
+
+# Summary
+Tags are simple but really usefull.  It's worth tagging everything you create with a something.  Even if you change this in the future, you will be able to identify and bill the items easier.
+
