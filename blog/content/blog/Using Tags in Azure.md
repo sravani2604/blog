@@ -14,7 +14,7 @@ draft = "true"
 +++
 
 
-Tags are a really simple feature in Azure, and are amazingingly useful. If you've spent any time in the portal then you will probably have noticed them.  They are essential a set of key value pairs that are assigned to the machine to 'tag' them in some way.
+Tags are a really simple feature in Azure, and are amazingly useful. If you've spent any time in the portal then you will probably have noticed them.  They are essentially a set of key value pairs that are assigned to a resource to 'tag' them in some way.  In this post we are going to look at how to use tags and how they can be applied.
 
 ![Tags in the Azure Console](/img/2019/11/Tags01.jpg "What tags look like in the console")
 
@@ -72,9 +72,9 @@ Get-AzResource -Name DC01 | Set-AzResource -Tags $resource.Tags
 
 # Tag Limits
 
-One thing to be aware of, is the limits on tags.  You are limited by things like the number of tags per resource, or the length of tags.
+One thing to be aware of, is the limits on tags.  You are limited by things like the number of tags per resource, or the length of tags.  The limits are big, so it shouldn't be a an issue in most environments but it is worth knowing about them.
 
-- 50 = Max number of tags per resource 
+- 50 = Max number of tags per resource
 - 512 = Max characters for the tag name (128 for strage accounts)
 - 256 = Max characters for the tag value (256 for storage accounts)
 - Not all resources support tags!  Most do though.  See [HERE](https://docs.microsoft.com/en-us/azure/azure-resource-manager/tag-support) for the Microsoft doc listing which ones do/don't.
