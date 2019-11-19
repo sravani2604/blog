@@ -10,7 +10,7 @@ linktitle = "Using Tags in Azure"
 title = "Using Tags in Azure"
 tags = ["Tags", "Azure", "Cost Management"]
 type = "post"
-draft = "true"
+draft = "false"
 +++
 
 
