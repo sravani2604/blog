@@ -10,7 +10,7 @@ linktitle = "Using Tags in Azure"
 title = "Using Tags in Azure"
 tags = ["Tags", "Azure", "Cost Management"]
 type = "post"
-draft = "true"
+draft = "false"
 +++
 
 
@@ -40,7 +40,7 @@ This information doesn't appear straight away.  It can take a few days to filter
 
 # Tagging with PowerShell
 
-Of course we can tag things with PowerShell! 
+Of course we can tag things with PowerShell!
 
 To find the tags that are assigned to resources is pretty simple using 'Get-AzResource', so I'm not going to go over that but these are some examples to give you an idea....
 
