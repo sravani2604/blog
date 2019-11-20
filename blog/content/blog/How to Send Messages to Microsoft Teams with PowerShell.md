@@ -26,11 +26,15 @@ We can use the "Send-MailMessage" cmdlet to send a test message to the channel. 
 ```PowerShell
 Send-MailMessage -To "Demo2 - Testing <8f5c8f4e.matthewbrowne.com@uk.teams.ms>" -Subject "Emailing to Teams" -Body "This is the body of the email" -SmtpServer smtp.corp.com
 ```
-It takes a few seconds to arrive, but this the what it looks like when it hits the Teams channel.
+It takes a few seconds to arrive, but this is what the message looks like when it hits the Teams channel.
 
 ![](2019-11-20-19-09-33.png)
 
-Now you can use this for any of your scripts that can email the output.
+Now you can use this for any of your scripts that can email the output.  Just pipe the output rom your script into the subject and body.  The formatting on the message on Teams can be a little limiting with longer emails.  If they get too long it will truncate them and make you click onthe original message to get the information.
+
+Often this method is good enough to get info into Teams and out of the Inbox.  If the subject of the email is informative enough then your probably good.
+
+
 
 ## Sub-Section 1
 
