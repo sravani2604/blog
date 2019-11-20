@@ -49,6 +49,28 @@ You will now see the webhook address appear.  Copy this and save it for later.  
 ![](2019-11-20-19-41-15.png)
 
 
+Now that we have our webhook URL for the Teams channel, we can start putting the code together.  First off, we need to put the URL into a variable.
+
+```PowerShell
+$webhookUri = "https://outlook.office.com/webhook/06918913-abc7-452c-81ff-25177c2feebf@5e79c439-6e7f-4b3f-b99a-9c1dc4ca414a/IncomingWebhook/028c7710c46d4d78844c7d7ee249d18e/2b256853-85e8-4911-a5e6-4c663998d73c"
+```
+Next we need to build the message to send.  Teams expects a JSON object with some text.  To do this we need to build a simple hashtable and convert it to JSON.
+
+```PowerShell
+$body = @{text = 'Sending a message using webhooks'} | ConvertTo-Json
+```
+Now we just need to send the message.  We have the webhook URI and the body, so we can use "Invoke-RestMethod" to send it.  We just need to make sure the content type is JSON
+
+```PowerShell
+Invoke-RestMethod -uri $webhookUri -Method Post -body $body -ContentType 'application/json'
+```
+
+We can put all this together and run it to send the message.  This is the nice clean message we get in Teams.
+
+![](2019-11-20-19-50-37.png)
+
+
+
 
 ## Sub-Section 1
 
