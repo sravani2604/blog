@@ -34,6 +34,20 @@ Now you can use this for any of your scripts that can email the output.  Just pi
 
 Often this method is good enough to get info into Teams and out of the Inbox.  If the subject of the email is informative enough then your probably good.
 
+# Sending Messages with Webhooks
+
+To configure a webhook for you Teams channel, go to the three dots against the team again.  Click on "Connectors".  Then look for "Incoming Webhook" in the list if connectors, and click "Configure".
+
+![](2019-11-20-19-34-39.png)
+
+Give you webhook a simple name, and upload a logo image if you like.  Scroll down and click "Create"
+
+![](2019-11-20-19-37-44.png)
+
+You will now see the webhook address appear.  Copy this and save it for later.  This is what we are going use to send the message.
+
+![](2019-11-20-19-41-15.png)
+
 
 
 ## Sub-Section 1
