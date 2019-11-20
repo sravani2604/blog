@@ -71,7 +71,6 @@ We can put all this together and run it to send the message.  This is the nice c
 
 
 
-
 ## Sub-Section 1
 
 [I'm an inline-style link with title - Markdown cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet "Google's Homepage")
