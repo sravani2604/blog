@@ -17,10 +17,20 @@ Teams is getting more and more popular in many business.  It's great for many pu
 
 # Email a Simple Message to Teams
 
-Emailing into Teams channels is one of the simplest methods.  Each channel has an email address.  You can find this by going to the three drots against the channel name and selecting "Get email address" in the dropdown.
+Emailing into Teams channels is one of the simplest methods.  Each channel has an email address.  You can find this by going to the three dots against the channel name and selecting "Get email address" in the dropdown.
 
 ![](2019-11-20-17-04-47.png)
 
+We can use the "Send-MailMessage" cmdlet to send a test message to the channel.  Just use the email address you have and add a subject/body.  You will need to supply an SMTP.  This can be a internal replay or a service like SendGrid etc.  It's possble to use O365 as the SMTP address but thats for another post.
+
+```PowerShell
+Send-MailMessage -To "Demo2 - Testing <8f5c8f4e.matthewbrowne.com@uk.teams.ms>" -Subject "Emailing to Teams" -Body "This is the body of the email" -SmtpServer smtp.corp.com
+```
+It takes a few seconds to arrive, but this the what it looks like when it hits the Teams channel.
+
+![](2019-11-20-19-09-33.png)
+
+Now you can use this for any of your scripts that can email the output.
 
 ## Sub-Section 1
 
